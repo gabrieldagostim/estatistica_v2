@@ -1,0 +1,1329 @@
+[
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2020-02-28",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 1030.24,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2020-02-28",
+        "credor": "RENATA NAGEL GARBELOTTO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2020-03-11",
+        "numeroDespesa": "15",
+        "numeroEmpenho": 170,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.079.529-**",
+                "numero": "96/2020",
+                "idDocumentoFiscal": "155",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-02-28",
+                "dataEmissao": "2020-02-28",
+                "nomeEmitente": "RENATA NAGEL GARBELOTTO",
+                "valorDocumento": 1030.24
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação especial, suplementos, medicamentos, materias de higiene infantil, acessórios para crianças e adolescentes (entre 01 a 16 anos) que estão abrigadas no Abrigo Florescer, acolhidas por mandado judicial. Cfe. Memorando nº 96/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "1",
+                "valor": 1030.24,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.079.529-**",
+        "numeroLiquidacao": "155",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 1030.24
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-01",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-01",
+        "credor": "ADRIANO MARCOLINO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-15",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4510,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.806.669-**",
+                "numero": "368/2020",
+                "idDocumentoFiscal": "6169",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-01",
+                "dataEmissao": "2020-12-01",
+                "nomeEmitente": "ADRIANO MARCOLINO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 02 de dezembro de 2020. Cfe. Memorando nº 368/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "3",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.806.669-**",
+        "numeroLiquidacao": "6169",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-02",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-02",
+        "credor": "JAIRO DE AZEVEDO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4523,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.681.970-**",
+                "numero": "371/2020",
+                "idDocumentoFiscal": "6197",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-02",
+                "dataEmissao": "2020-12-02",
+                "nomeEmitente": "JAIRO DE AZEVEDO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Porto Alegre/RS, via Tratamento Fora do Domicílio - TFD, no dia 03 de dezembro de 2020. Cfe. Memorando nº 371/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "6",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.681.970-**",
+        "numeroLiquidacao": "6197",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-02",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-02",
+        "credor": "ODAIR NICKEL LOPES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4526,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.884.499-**",
+                "numero": "388/2020",
+                "idDocumentoFiscal": "6201",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-02",
+                "dataEmissao": "2020-12-02",
+                "nomeEmitente": "ODAIR NICKEL LOPES",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 03 de dezembro de 2020. Cfe. Memorando nº 388/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "15",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.884.499-**",
+        "numeroLiquidacao": "6201",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-03",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-03",
+        "credor": "RODRIGO RODRIGUES DOS SANTOS",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4543,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.018.200-**",
+                "numero": "390/2020",
+                "idDocumentoFiscal": "6223",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-03",
+                "dataEmissao": "2020-12-03",
+                "nomeEmitente": "RODRIGO RODRIGUES DOS SANTOS",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 04 de dezembro de 2020. Cfe. Memorando nº 390/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "18",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.018.200-**",
+        "numeroLiquidacao": "6223",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-03",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-03",
+        "credor": "RODRIGO RODRIGUES DOS SANTOS",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4548,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.018.200-**",
+                "numero": "425/2020",
+                "idDocumentoFiscal": "6235",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-03",
+                "dataEmissao": "2020-12-03",
+                "nomeEmitente": "RODRIGO RODRIGUES DOS SANTOS",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 07 de dezembro de 2020. Cfe. Memorando nº 425/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "17",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.018.200-**",
+        "numeroLiquidacao": "6235",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-07",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 69.96,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-07",
+        "credor": "JULIO CESAR RODRIGUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4556,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.979.059-**",
+                "numero": "413/2020",
+                "idDocumentoFiscal": "6255",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-07",
+                "dataEmissao": "2020-12-07",
+                "nomeEmitente": "JULIO CESAR RODRIGUES",
+                "valorDocumento": 69.96
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Porto Alegre/RS, via Tratamento Fora do Domicílio - TFD, no dia 08 de dezembro de 2020. Cfe. Memorando nº 413/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "10",
+                "valor": 69.96,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.979.059-**",
+        "numeroLiquidacao": "6255",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 69.96
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-07",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-07",
+        "credor": "ADRIANO MARCOLINO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4559,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.806.669-**",
+                "numero": "417/2020",
+                "idDocumentoFiscal": "6263",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-07",
+                "dataEmissao": "2020-12-07",
+                "nomeEmitente": "ADRIANO MARCOLINO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 08 de dezembro de 2020. Cfe. Memorando nº 417/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "1",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.806.669-**",
+        "numeroLiquidacao": "6263",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-08",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-08",
+        "credor": "ODAIR NICKEL LOPES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4567,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.884.499-**",
+                "numero": "347/2020",
+                "idDocumentoFiscal": "6269",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-08",
+                "dataEmissao": "2020-12-08",
+                "nomeEmitente": "ODAIR NICKEL LOPES",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Joinville/SC, via Tratamento Fora do Domicílio - TFD, no dia 09 de dezembro de 2020. Cfe. Memorando nº 347/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "16",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.884.499-**",
+        "numeroLiquidacao": "6269",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-09",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-09",
+        "credor": "JULIO CESAR RODRIGUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4584,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.979.059-**",
+                "numero": "429/2020",
+                "idDocumentoFiscal": "6319",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-09",
+                "dataEmissao": "2020-12-09",
+                "nomeEmitente": "JULIO CESAR RODRIGUES",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 10 dezembro de 2020. Cfe. Memorando nº 429/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "8",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.979.059-**",
+        "numeroLiquidacao": "6319",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-10",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-10",
+        "credor": "JAIRO DE AZEVEDO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4595,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.681.970-**",
+                "numero": "434/2020",
+                "idDocumentoFiscal": "6325",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-10",
+                "dataEmissao": "2020-12-10",
+                "nomeEmitente": "JAIRO DE AZEVEDO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 11 dezembro de 2020. Cfe. Memorando nº 434/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "7",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.681.970-**",
+        "numeroLiquidacao": "6325",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-11",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-11",
+        "credor": "JULIO CESAR RODRIGUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4605,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.979.059-**",
+                "numero": "441/2020",
+                "idDocumentoFiscal": "6330",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-11",
+                "dataEmissao": "2020-12-11",
+                "nomeEmitente": "JULIO CESAR RODRIGUES",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Joinville/SC, via Tratamento Fora do Domicílio - TFD, no dia 12 dezembro de 2020. Cfe. Memorando nº 441/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "9",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.979.059-**",
+        "numeroLiquidacao": "6330",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-14",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-14",
+        "credor": "LUCIAN BACIS DA LUZ",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-21",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4620,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.199.619-**",
+                "numero": "450/2020",
+                "idDocumentoFiscal": "6343",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-14",
+                "dataEmissao": "2020-12-14",
+                "nomeEmitente": "LUCIAN BACIS DA LUZ",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Porto Alegre/RS, via Tratamento Fora do Domicílio - TFD, no dia 15 dezembro de 2020. Cfe. Memorando nº 450/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "12",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.199.619-**",
+        "numeroLiquidacao": "6343",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-15",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-15",
+        "credor": "JULIO CESAR RODRIGUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-28",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4666,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.979.059-**",
+                "numero": "457/2020",
+                "idDocumentoFiscal": "6421",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-15",
+                "dataEmissao": "2020-12-15",
+                "nomeEmitente": "JULIO CESAR RODRIGUES",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Joinville/SC, via Tratamento Fora do Domicílio - TFD, no dia 16 de dezembro de 2020. Cfe. Memorando nº 457/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "11",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.979.059-**",
+        "numeroLiquidacao": "6421",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-16",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-16",
+        "credor": "LUCIAN BACIS DA LUZ",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-28",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4680,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.199.619-**",
+                "numero": "460/2020",
+                "idDocumentoFiscal": "6422",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-16",
+                "dataEmissao": "2020-12-16",
+                "nomeEmitente": "LUCIAN BACIS DA LUZ",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Joinville/SC, via Tratamento Fora do Domicílio - TFD, no dia 17 de dezembro de 2020. Cfe. Memorando nº 460/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "13",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.199.619-**",
+        "numeroLiquidacao": "6422",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-17",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-17",
+        "credor": "ADRIANO MARCOLINO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-28",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4709,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.806.669-**",
+                "numero": "434/2020",
+                "idDocumentoFiscal": "6457",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-17",
+                "dataEmissao": "2020-12-17",
+                "nomeEmitente": "ADRIANO MARCOLINO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 18 de dezembro de 2020. Cfe. Memorando nº 434/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "4",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.806.669-**",
+        "numeroLiquidacao": "6457",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-17",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-17",
+        "credor": "ADRIANO MARCOLINO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-28",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4710,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.806.669-**",
+                "numero": "435/2020",
+                "idDocumentoFiscal": "6456",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-17",
+                "dataEmissao": "2020-12-17",
+                "nomeEmitente": "ADRIANO MARCOLINO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 18 de dezembro de 2020. Cfe. Memorando nº 435/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "2",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.806.669-**",
+        "numeroLiquidacao": "6456",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-21",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 70,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-21",
+        "credor": "ADRIANO MARCOLINO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-29",
+        "numeroDespesa": "10",
+        "numeroEmpenho": 4791,
+        "fonteRecurso": "Receitas de Impostos e de Transferência de Impostos - Saúde",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.806.669-**",
+                "numero": "465/2020",
+                "idDocumentoFiscal": "6607",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-21",
+                "dataEmissao": "2020-12-21",
+                "nomeEmitente": "ADRIANO MARCOLINO",
+                "valorDocumento": 70
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Blumenau/SC, via Tratamento Fora do Domicílio - TFD, no dia 22 de dezembro de 2020. Cfe. Memorando nº 465/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "5",
+                "valor": 70,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.806.669-**",
+        "numeroLiquidacao": "6607",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 70
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2020-12-21",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 92.14,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2020-12-21",
+        "credor": "NICOLE TOLIOS PAIM",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2020-12-30",
+        "numeroDespesa": "7",
+        "numeroEmpenho": 4793,
+        "fonteRecurso": "Transf. do SUS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.939.849-**",
+                "numero": "370/2020",
+                "idDocumentoFiscal": "6609",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-12-21",
+                "dataEmissao": "2020-12-21",
+                "nomeEmitente": "NICOLE TOLIOS PAIM",
+                "valorDocumento": 92.14
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas com combustível, para custear despesas no transporte de paciente de Criciúma/SC, para Joinville/SC, no dia 22 de dezembro de 2020. Cfe. Memorando nº 370/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "14",
+                "valor": 92.14,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.939.849-**",
+        "numeroLiquidacao": "6609",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 92.14
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2020-01-13",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 500,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2020-01-13",
+        "credor": "EDSON DOS SANTOS SILVA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-01-28",
+        "numeroDespesa": "94",
+        "numeroEmpenho": 362,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.275.639-**",
+                "numero": "12/2020",
+                "idDocumentoFiscal": "59",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-13",
+                "dataEmissao": "2020-01-13",
+                "nomeEmitente": "EDSON DOS SANTOS SILVA",
+                "valorDocumento": 500
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação de reuniões na empresa Mirasul, na Prefeitura de São Jeronimo e na empresa Black Sheep, na Cidade de Sarandi/Porto Alegre/RS, nos dias 15 e 16 de Janeiro de 2020. Cfe. Memorando nº 12/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "16",
+                "valor": 500,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.275.639-**",
+        "numeroLiquidacao": "59",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 500
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2020-01-17",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 400,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2020-01-17",
+        "credor": "EDSON DOS SANTOS SILVA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-01-28",
+        "numeroDespesa": "94",
+        "numeroEmpenho": 427,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.275.639-**",
+                "numero": "16/2020",
+                "idDocumentoFiscal": "103",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-17",
+                "dataEmissao": "2020-01-17",
+                "nomeEmitente": "EDSON DOS SANTOS SILVA",
+                "valorDocumento": 400
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação no evento Conexão Startup Brasil e visita ao Centro de Inovação, nas Cidades de Florianóplis e Jaraguá do Sul/SC, nos dias 20 e 22 de Janeiro de 2020. Cfe. Memorando nº 16/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "17",
+                "valor": 400,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.275.639-**",
+        "numeroLiquidacao": "103",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 400
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2020-01-20",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Coord. Mun. de Proteção Defesa Civil",
+        "valorEmpenho": 300,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2020-01-20",
+        "credor": "DIONI PEREIRA DE BORBA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-01-30",
+        "numeroDespesa": "42",
+        "numeroEmpenho": 438,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 300,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.255.559-**",
+                "numero": "03/2020",
+                "idDocumentoFiscal": "120",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-20",
+                "dataEmissao": "2020-01-20",
+                "nomeEmitente": "DIONI PEREIRA DE BORBA",
+                "valorDocumento": 300
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível e alimentação, para participação no curso no Centro de Gerenciamento de Riscos e Desastres - CIGERD, na cidade de Florianóplis/SC, no dia 29 de Janeiro de 2020. Cfe. Memorando nº 03/2020.",
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.255.559-**",
+        "numeroLiquidacao": "120",
+        "acao": "Coord. Mun. de Proteção Defesa Civil",
+        "valorPagamento": 300
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-01-28",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 1245,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-01-28",
+        "credor": "ROSELI MARIA DE LUCCA PIZZOLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-02-11",
+        "numeroDespesa": "131",
+        "numeroEmpenho": 640,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.493.849-**",
+                "numero": "47/2020",
+                "idDocumentoFiscal": "355",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-28",
+                "dataEmissao": "2020-01-28",
+                "nomeEmitente": "ROSELI MARIA DE LUCCA PIZZOLO",
+                "valorDocumento": 1245
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir diversas despesas emergenciais da Secretaria Municipal de Educação, do município de Criciúma/SC. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "29",
+                "valor": 1245,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.493.849-**",
+        "numeroLiquidacao": "355",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 1245
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-01-28",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47050,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-01-28",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-02-17",
+        "numeroDespesa": "155",
+        "numeroEmpenho": 641,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 14053.95,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "02 e 03/2020",
+                "idDocumentoFiscal": "376",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-28",
+                "dataEmissao": "2020-01-28",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47050
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Fevereiro e Março/2020, de acordo com a autorização do Memorando nº 49/2020 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "7",
+                "valor": 32996.05,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "376",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47050
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-01-28",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47050,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-01-28",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-02-17",
+        "numeroDespesa": "155",
+        "numeroEmpenho": 650,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 12600.58,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "02 e 03/2020",
+                "idDocumentoFiscal": "377",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-01-28",
+                "dataEmissao": "2020-01-28",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47050
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Fevereiro e Março/2020, de acordo com a autorização do Memorando nº 49/2020 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "5",
+                "valor": 34449.42,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "377",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47050
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2020-02-03",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Gabinete do Prefeito",
+        "valorEmpenho": 700,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2020-02-03",
+        "credor": "NELI SEHNEM DOS SANTOS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-02-13",
+        "numeroDespesa": "11",
+        "numeroEmpenho": 833,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 167.2,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.330.079-**",
+                "numero": "29/2020",
+                "idDocumentoFiscal": "481",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-02-03",
+                "dataEmissao": "2020-02-03",
+                "nomeEmitente": "NELI SEHNEM DOS SANTOS",
+                "valorDocumento": 700
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de deslocamento, hospedagem e alimentação, para participação no curso \"Formação e Atualização de Pregoeiros\", na cidade de Florianóplis/SC, nos dias 11 a 12 de Fevereiro de 2020. Cfe. Memorando nº 29/2020.",
+        "prestacaoContas": [
+            {
+                "numero": "26",
+                "valor": 532.8,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.330.079-**",
+        "numeroLiquidacao": "481",
+        "acao": "Manut. da Diretoria de Logistica",
+        "valorPagamento": 700
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-02-26",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 1245,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-02-26",
+        "credor": "ROSELI MARIA DE LUCCA PIZZOLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-03-11",
+        "numeroDespesa": "131",
+        "numeroEmpenho": 1318,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 1245,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.493.849-**",
+                "numero": "158/2020",
+                "idDocumentoFiscal": "1201",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-02-26",
+                "dataEmissao": "2020-02-26",
+                "nomeEmitente": "ROSELI MARIA DE LUCCA PIZZOLO",
+                "valorDocumento": 1245
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir diversas despesas emergenciais da Secretaria Municipal de Educação, do município de Criciúma/SC. Cfe. Doc. Anexo.",
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.493.849-**",
+        "numeroLiquidacao": "1201",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 1245
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-08-27",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-08-27",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-09-10",
+        "numeroDespesa": "155",
+        "numeroEmpenho": 4695,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 8827.56,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "08 e 09/2020",
+                "idDocumentoFiscal": "5836",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-08-27",
+                "dataEmissao": "2020-08-27",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47200
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Agosto e Setembro/2020, de acordo com a autorização do Memorando nº 580/2020 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "6",
+                "valor": 38372.44,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "5836",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47200
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2020-08-27",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2020-08-27",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2020-09-10",
+        "numeroDespesa": "155",
+        "numeroEmpenho": 4696,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 9018.33,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "08 e 09/2020",
+                "idDocumentoFiscal": "5837",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2020-08-27",
+                "dataEmissao": "2020-08-27",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47200
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Agosto e Setembro/2020, de acordo com a autorização do Memorando nº 580/2020 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "4",
+                "valor": 38181.67,
+                "dataEmissao": "2020-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "5837",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47200
+    }
+]

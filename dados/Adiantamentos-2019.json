@@ -1,0 +1,1435 @@
+[
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-05-27",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 480,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-05-27",
+        "credor": "RENATA NAGEL GARBELOTTO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-06-06",
+        "numeroDespesa": "12",
+        "numeroEmpenho": 365,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/União",
+        "valorDevolvido": 110.22,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.079.529-**",
+                "numero": "329/2019",
+                "idDocumentoFiscal": "613",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-05-27",
+                "dataEmissao": "2019-05-27",
+                "nomeEmitente": "RENATA NAGEL GARBELOTTO",
+                "valorDocumento": 480
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas de viagem para os participantes do \"X Seminário Estadual de Assitência Social\", a realizar-se nos dias 29 à 31 de Maio de 2019, em Florianópolis/SC. Cfe. memorando nº 329/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "17",
+                "valor": 369.78,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.079.529-**",
+        "numeroLiquidacao": "613",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 480
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-06-21",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 3259.5,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-06-21",
+        "credor": "RENATA NAGEL GARBELOTTO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-06-28",
+        "numeroDespesa": "14",
+        "numeroEmpenho": 442,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/Estado",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.079.529-**",
+                "numero": "417/2019",
+                "idDocumentoFiscal": "716",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-06-21",
+                "dataEmissao": "2019-06-21",
+                "nomeEmitente": "RENATA NAGEL GARBELOTTO",
+                "valorDocumento": 3259.5
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação para os participantes dos passeios dos CRAS Próspera e CRAS Renascer, a realizar-se nos dias 25 e 28 de Junho de 2019, em Nova Veneza/SC. Cfe. Memorando nº 417/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "15",
+                "valor": 3259.5,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.079.529-**",
+        "numeroLiquidacao": "716",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 3259.5
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-09-09",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 1608,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-09-09",
+        "credor": "PATRICIA VEDANA MARQUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-09-16",
+        "numeroDespesa": "14",
+        "numeroEmpenho": 640,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/Estado",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.897.279-**",
+                "numero": "600/2019",
+                "idDocumentoFiscal": "1073",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-09",
+                "dataEmissao": "2019-09-09",
+                "nomeEmitente": "PATRICIA VEDANA MARQUES",
+                "valorDocumento": 1608
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação para os participantes dos passeios dos CRAS Vila Miguel, a realizar-se no dia 17 de Setembro de 2019, em Laguna/SC. Cfe. Memorando nº 600/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "14",
+                "valor": 1608,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.897.279-**",
+        "numeroLiquidacao": "1073",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 1608
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-09-09",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 160,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-09-09",
+        "credor": "MICHELE EUZÉBIO BOMBAZAR",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-09-19",
+        "numeroDespesa": "12",
+        "numeroEmpenho": 643,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.475.439-**",
+                "numero": "631/2019",
+                "idDocumentoFiscal": "1076",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-09",
+                "dataEmissao": "2019-09-09",
+                "nomeEmitente": "MICHELE EUZÉBIO BOMBAZAR",
+                "valorDocumento": 160
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com combustível para participação na Capacitação Presencial do Programa de Erradicação do Trabalho Infantil, a realizar-se nos dias 11 à 12 de Setembro de 2019, em Florianópolis/SC. Cfe. Memorando nº 631/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "12",
+                "valor": 160,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.475.439-**",
+        "numeroLiquidacao": "1076",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 160
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-10-09",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 2196,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-10-09",
+        "credor": "FERNANDA DE OLIVEIRA MAIA",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-10-17",
+        "numeroDespesa": "12",
+        "numeroEmpenho": 703,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.221.390-**",
+                "numero": "743/2019",
+                "idDocumentoFiscal": "1289",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-10-09",
+                "dataEmissao": "2019-10-09",
+                "nomeEmitente": "FERNANDA DE OLIVEIRA MAIA",
+                "valorDocumento": 2196
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação para as crianças e adolescentes que estarão participando da  4ª Etapa do Circuito Catarinense de Jiu Jitsu, a realizar-se nos dias 19 a 20 de Outubro de 2019, em Jaguaruna/SC. Cfe. Memorando nº 743/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "11",
+                "valor": 2196,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.221.390-**",
+        "numeroLiquidacao": "1289",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 2196
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-10-24",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 1350,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-10-24",
+        "credor": "PATRICIA VEDANA MARQUES",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-10-30",
+        "numeroDespesa": "12",
+        "numeroEmpenho": 716,
+        "fonteRecurso": "Transf. do Sist. Unico de Assist. Social-SUAS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.897.279-**",
+                "numero": "760/2019",
+                "idDocumentoFiscal": "1304",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-10-24",
+                "dataEmissao": "2019-10-24",
+                "nomeEmitente": "PATRICIA VEDANA MARQUES",
+                "valorDocumento": 1350
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação para as crianças e adolescentes do Cras Santa Luzia, que estarão participando de viagem, a realizar-se no dia 30 de Outubro de 2019, em Nova Veneza/SC. Cfe. Memorando nº 760/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "13",
+                "valor": 1350,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.897.279-**",
+        "numeroLiquidacao": "1304",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 1350
+    },
+    {
+        "funcao": "Assistência Social",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUN. DE ASSIST. SOCIAL",
+        "dataEmpenho": "2019-12-13",
+        "programa": "GESTÃO DA POLITICA MUNICIPAL DE ASSITENCIA SOCIAL",
+        "unidade": "Gestão da Assistência Social",
+        "valorEmpenho": 1500,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Assistência à Criança e ao Adolescente",
+        "dataLiquidacao": "2019-12-13",
+        "credor": "RENATA NAGEL GARBELOTTO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE CRICIUMA",
+        "dataPagamento": "2019-12-20",
+        "numeroDespesa": "15",
+        "numeroEmpenho": 842,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.079.529-**",
+                "numero": "917/2019",
+                "idDocumentoFiscal": "1603",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-12-13",
+                "dataEmissao": "2019-12-13",
+                "nomeEmitente": "RENATA NAGEL GARBELOTTO",
+                "valorDocumento": 1500
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas com alimentação, medicamentos, materias de higiene infantil, acessórios para crianças (entre 01 a 14 anos) que estão abrigadas no Abrigo Florescer, acolhidas por mandado judicial. Cfe. Memorando nº 917/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "16",
+                "valor": 1500,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.079.529-**",
+        "numeroLiquidacao": "1603",
+        "acao": "Manut. da Proteção Social Básica - SUAS",
+        "valorPagamento": 1500
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2019-11-28",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 4000,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Atenção Básica",
+        "dataLiquidacao": "2019-11-28",
+        "credor": "VALDIR MARTINS ANACLETO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2019-12-10",
+        "numeroDespesa": "6",
+        "numeroEmpenho": 4202,
+        "fonteRecurso": "Transf. do SUS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo de Pagamento Pessoal",
+                "cpfCnpjEmitente": "***.298.419-**",
+                "numero": "56/2019",
+                "idDocumentoFiscal": "5555",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-28",
+                "dataEmissao": "2019-11-28",
+                "nomeEmitente": "VALDIR MARTINS ANACLETO",
+                "valorDocumento": 4000
+            }
+        ],
+        "descricao": "Adiantamento de recursos financeiros para cobrir despesas da CENTRAL DE AMBULÂNCIAS com viagem para fora do município.  A realizar-se no mês Dezembro/19, a serviço da Secretaria Municipal de Saúde. Cfe. Memorando nº 56/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "1",
+                "valor": 4000,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.298.419-**",
+        "numeroLiquidacao": "5555",
+        "acao": "Manut. do Fundo Municipal de Saude, despesas de pessoal outros p/ manut.",
+        "valorPagamento": 4000
+    },
+    {
+        "funcao": "Saúde",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "FUNDO MUNICIPAL DE SAÚDE",
+        "dataEmpenho": "2019-11-28",
+        "programa": "SAUDE PARA TODOS",
+        "unidade": "Fundo Mun. de Saúde",
+        "valorEmpenho": 500,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Vigilância Epidemiológica",
+        "dataLiquidacao": "2019-11-28",
+        "credor": "JORGE TELLES CARDOSO",
+        "nomeEntidade": "FUNDO MUNICIPAL DE SAUDE DE CRICIUMA",
+        "dataPagamento": "2019-12-10",
+        "numeroDespesa": "91",
+        "numeroEmpenho": 4204,
+        "fonteRecurso": "Transf. do SUS/União",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.105.339-**",
+                "numero": "116/2019",
+                "idDocumentoFiscal": "5557",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-28",
+                "dataEmissao": "2019-11-28",
+                "nomeEmitente": "JORGE TELLES CARDOSO",
+                "valorDocumento": 500
+            }
+        ],
+        "descricao": "Adiantamento de recursos financeiros para cobrir despesas da CENTRAL DE VIGILÂNCIA EM SAÚDE com viagem para fora do município.  A realizar-se no período de 01 a 31 de Dezembro/2019, a serviço da Secretaria Municipal de Saúde. Cfe. Memorando nº 116/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "2",
+                "valor": 500,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.105.339-**",
+        "numeroLiquidacao": "5557",
+        "acao": "Manut. da Epidemiologia",
+        "valorPagamento": 500
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-05-09",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 520,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-05-09",
+        "credor": "RENATA SEBASTIANA LIMAS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-05-29",
+        "numeroDespesa": "149",
+        "numeroEmpenho": 3133,
+        "fonteRecurso": "Salário Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.096.589-**",
+                "numero": "371/2019",
+                "idDocumentoFiscal": "3817",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-05-09",
+                "dataEmissao": "2019-05-09",
+                "nomeEmitente": "RENATA SEBASTIANA LIMAS",
+                "valorDocumento": 520
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de viagem para participação da Formação da Olímpiada Regional Mirim de Matématica, no dia 18 de Maio de 2019, em Florianópolis/SC, a serviço da Secretaria Municipal de Educação. Cfe. Memorando nº 371/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "18",
+                "valor": 520,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.096.589-**",
+        "numeroLiquidacao": "3817",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 520
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2019-05-14",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Coord. Mun. de Proteção Defesa Civil",
+        "valorEmpenho": 300,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-05-14",
+        "credor": "DIONI PEREIRA DE BORBA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-05-29",
+        "numeroDespesa": "42",
+        "numeroEmpenho": 3201,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.255.559-**",
+                "numero": "36/2019",
+                "idDocumentoFiscal": "3822",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-05-14",
+                "dataEmissao": "2019-05-14",
+                "nomeEmitente": "DIONI PEREIRA DE BORBA",
+                "valorDocumento": 300
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação, hospedagem e combustível para participação de Seminário de Proteção e Defesa Civil, nos dias 30 à 31 de Maio de 2019, em Palhoça/SC, a serviço da Defesa Civil. Cfe. Memorando nº 036/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "13",
+                "valor": 300,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.255.559-**",
+        "numeroLiquidacao": "3822",
+        "acao": "Coord. Mun. de Proteção Defesa Civil",
+        "valorPagamento": 300
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-05-20",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 700,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-05-20",
+        "credor": "RAQUEL GUISI CANDINHO CHAUCOSKI",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-05-29",
+        "numeroDespesa": "149",
+        "numeroEmpenho": 3272,
+        "fonteRecurso": "Salário Educação",
+        "valorDevolvido": 700,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.703.709-**",
+                "numero": "388/2019",
+                "idDocumentoFiscal": "3901",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-05-20",
+                "dataEmissao": "2019-05-20",
+                "nomeEmitente": "RAQUEL GUISI CANDINHO CHAUCOSKI",
+                "valorDocumento": 700
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação de 10 diretoras para visita técnica aos CEIMS da Rede Municipal, no dia 18 de Maio de 2019, em Blumenau/SC, a serviço da Secretaria Municipal de Educação. Cfe. Memorando nº 388/2019.",
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.703.709-**",
+        "numeroLiquidacao": "3901",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 700
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2019-05-28",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Gabinete do Prefeito",
+        "valorEmpenho": 2000,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-05-31",
+        "credor": "VAGNER ESPINDOLA RODRIGUES",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-06-04",
+        "numeroDespesa": "8",
+        "numeroEmpenho": 3442,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 1041.5,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.102.669-**",
+                "numero": "133/2019",
+                "idDocumentoFiscal": "4201",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-05-31",
+                "dataEmissao": "2019-05-31",
+                "nomeEmitente": "VAGNER ESPINDOLA RODRIGUES",
+                "valorDocumento": 2000
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesas de hospedagem e alimentação de viagem para cumprir agenda nos Ministérios, a realizar-se nos dias 04 à 06 de Junho de 2019, em Brasília/DF. Cfe. memorando nº 133/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "26",
+                "valor": 958.5,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.102.669-**",
+        "numeroLiquidacao": "4201",
+        "acao": "Manut. do Comitê Gestor e da Assessoria de Gabinete",
+        "valorPagamento": 2000
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO VICE-PREFEITO",
+        "dataEmpenho": "2019-06-03",
+        "programa": "APOIO A GESTÃO ADMINISTRATIVA",
+        "unidade": "Gabinete do Vice-Prefeito",
+        "valorEmpenho": 200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-06-03",
+        "credor": "RICARDO FABRIS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-06-12",
+        "numeroDespesa": "54",
+        "numeroEmpenho": 3668,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 170,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.955.050-**",
+                "numero": "23/2019",
+                "idDocumentoFiscal": "4431",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-06-03",
+                "dataEmissao": "2019-06-03",
+                "nomeEmitente": "RICARDO FABRIS",
+                "valorDocumento": 200
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de viagem para reunião sobre Unidades Móveis (ônibus) com os diretores do PROCON, nos dia 04 à 05 de Junho de 2019, em Florianópolis e Blumenau/SC, a serviço do município. Cfe. Memorando nº 23/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "21",
+                "valor": 30,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.955.050-**",
+        "numeroLiquidacao": "4431",
+        "acao": "Manut. Funcional do Gabinete do Vice Prefeito",
+        "valorPagamento": 200
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-06-03",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 560,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-06-03",
+        "credor": "RENATA SEBASTIANA LIMAS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-06-12",
+        "numeroDespesa": "149",
+        "numeroEmpenho": 3669,
+        "fonteRecurso": "Salário Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.096.589-**",
+                "numero": "465/2019",
+                "idDocumentoFiscal": "4438",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-06-03",
+                "dataEmissao": "2019-06-03",
+                "nomeEmitente": "RENATA SEBASTIANA LIMAS",
+                "valorDocumento": 560
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação para participação da Formação da Olímpiada Regional Mirim de Matématica, no dia 08 de Junho de 2019, em Florianópolis/SC, a serviço da Secretaria Municipal de Educação. Cfe. Memorando nº 465/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "19",
+                "valor": 560,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.096.589-**",
+        "numeroLiquidacao": "4438",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 560
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-06-06",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 400,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-06-06",
+        "credor": "AGENOR BRUNEL",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-06-14",
+        "numeroDespesa": "88",
+        "numeroEmpenho": 3779,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 218,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.298.039-**",
+                "numero": "28/2019",
+                "idDocumentoFiscal": "4599",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-06-06",
+                "dataEmissao": "2019-06-06",
+                "nomeEmitente": "AGENOR BRUNEL",
+                "valorDocumento": 400
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível para participação de reuniões com os Secretários de Desenvolvimento Econômico, nos dias 17 à 19 de Junho de 2019, em Florianópolis, Itajaí, Joinville e Palhoça/SC. Cfe. Memorando nº 028/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "3",
+                "valor": 182,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.298.039-**",
+        "numeroLiquidacao": "4599",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 400
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-08-20",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 250,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-08-20",
+        "credor": "EDSON DOS SANTOS SILVA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-08-27",
+        "numeroDespesa": "88",
+        "numeroEmpenho": 5533,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 150,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo de Pagamento Pessoal",
+                "cpfCnpjEmitente": "***.275.639-**",
+                "numero": "55/2019",
+                "idDocumentoFiscal": "7120",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-08-20",
+                "dataEmissao": "2019-08-20",
+                "nomeEmitente": "EDSON DOS SANTOS SILVA",
+                "valorDocumento": 250
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para buscar paletrante que participará do Conecta Startup Brasil, no dia 21 de Agosto de 2019, em Joinville/SC, a serviço da Secretaria da Fazenda. Cfe. Memorando nº 055/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "14",
+                "valor": 100,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.275.639-**",
+        "numeroLiquidacao": "7120",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 250
+    },
+    {
+        "funcao": "Agricultura",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-08-27",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Agricultura",
+        "valorEmpenho": 500,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Extensão Rural",
+        "dataLiquidacao": "2019-08-27",
+        "credor": "GUILHERME ALVES BELLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-09-05",
+        "numeroDespesa": "105",
+        "numeroEmpenho": 5812,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 236.02,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.712.500-**",
+                "numero": "111/2019",
+                "idDocumentoFiscal": "7533",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-08-27",
+                "dataEmissao": "2019-08-27",
+                "nomeEmitente": "GUILHERME ALVES BELLO",
+                "valorDocumento": 500
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação no Curso de Habilitação em Certificação Fitossanitária de Origem Consolidada de Vegetais, nos dia 24 à 27 de Setembro de 2019, em Guaratuba/PR. Cfe. Memorando nº 111/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "15",
+                "valor": 263.98,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.712.500-**",
+        "numeroLiquidacao": "7533",
+        "acao": "Manut. da Agricultura",
+        "valorPagamento": 500
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-09-02",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 1245,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-09-02",
+        "credor": "ROSELI MARIA DE LUCCA PIZZOLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-09-11",
+        "numeroDespesa": "125",
+        "numeroEmpenho": 5963,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.493.849-**",
+                "numero": "866/2019",
+                "idDocumentoFiscal": "7688",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-02",
+                "dataEmissao": "2019-09-02",
+                "nomeEmitente": "ROSELI MARIA DE LUCCA PIZZOLO",
+                "valorDocumento": 1245
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir diversas despesas emergenciais da Secretaria Municipal de Educação, do município de Criciúma/SC. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "25",
+                "valor": 1245,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.493.849-**",
+        "numeroLiquidacao": "7688",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 1245
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-09-02",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 700,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-09-02",
+        "credor": "RAQUEL GUISI CANDINHO CHAUCOSKI",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-09-11",
+        "numeroDespesa": "149",
+        "numeroEmpenho": 5966,
+        "fonteRecurso": "Salário Educação",
+        "valorDevolvido": 160.35,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.703.709-**",
+                "numero": "884/2019",
+                "idDocumentoFiscal": "7691",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-02",
+                "dataEmissao": "2019-09-02",
+                "nomeEmitente": "RAQUEL GUISI CANDINHO CHAUCOSKI",
+                "valorDocumento": 700
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação, para participação a visita técnica aos CEIMs do município de Blumenau, no dia 12 de Setembro de 2019, em Blumenau/SC, a serviço da Secretaria de Educação. Cfe. Memorando nº 884/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "17",
+                "valor": 539.65,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.703.709-**",
+        "numeroLiquidacao": "7691",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 700
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-09-12",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-09-12",
+        "credor": "VINÍCIUS KOERICH ESPÍNDOLA",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-09-26",
+        "numeroDespesa": "88",
+        "numeroEmpenho": 6169,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 66.25,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.588.699-**",
+                "numero": "343/2019",
+                "idDocumentoFiscal": "8016",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-12",
+                "dataEmissao": "2019-09-12",
+                "nomeEmitente": "VINÍCIUS KOERICH ESPÍNDOLA",
+                "valorDocumento": 200
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação no \"Seminário Brasileiro do Simples Nacional\", nos dia 25 à 26 de Setembro de 2019, em São José/SC. Cfe. Memorando nº 343/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "27",
+                "valor": 133.75,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.588.699-**",
+        "numeroLiquidacao": "8016",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 200
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-09-16",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 250,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-09-16",
+        "credor": "CAROLINE BRUNEL MATIAS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-09-26",
+        "numeroDespesa": "88",
+        "numeroEmpenho": 6231,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 57.7,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.623.329-**",
+                "numero": "353/2019",
+                "idDocumentoFiscal": "8064",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-16",
+                "dataEmissao": "2019-09-16",
+                "nomeEmitente": "CAROLINE BRUNEL MATIAS",
+                "valorDocumento": 250
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação no \"Seminário de Gestão de Recursos\", nos dia 24 à 26 de Setembro de 2019, em São José/SC. Cfe. Memorando nº 353/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "11",
+                "valor": 192.3,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.623.329-**",
+        "numeroLiquidacao": "8064",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 250
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-09-17",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47950,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-09-17",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-10-10",
+        "numeroDespesa": "146",
+        "numeroEmpenho": 6268,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 5480.57,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "10 e 11/2019",
+                "idDocumentoFiscal": "8141",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-17",
+                "dataEmissao": "2019-09-17",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47950
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Outubro e Novembro/2019, de acordo com a autorização do Memorando nº 937/2019 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "9",
+                "valor": 42469.43,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "8141",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47950
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-09-17",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 47950,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-09-17",
+        "credor": "ANA PAULA DE CARV. FERNANDES COLOMBO E OUTROS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-10-10",
+        "numeroDespesa": "146",
+        "numeroEmpenho": 6269,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "valorDevolvido": 6232.49,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.173.489-**",
+                "numero": "10 e 11/2019",
+                "idDocumentoFiscal": "8142",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-09-17",
+                "dataEmissao": "2019-09-17",
+                "nomeEmitente": "ANA PAULA DE CARV. FERNANDES COLOMBO E O",
+                "valorDocumento": 47950
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir despesa emergenciais, junto as escolas do município de Criciúma/SC - Comp. Outubro e Novembro/2019, de acordo com a autorização do Memorando nº 937/2019 - Secretaria Municipal de Educação. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "10",
+                "valor": 41717.51,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.173.489-**",
+        "numeroLiquidacao": "8142",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 47950
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-10-07",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 1245,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-10-07",
+        "credor": "ROSELI MARIA DE LUCCA PIZZOLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-10-16",
+        "numeroDespesa": "125",
+        "numeroEmpenho": 6774,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.493.849-**",
+                "numero": "1010/2019",
+                "idDocumentoFiscal": "8864",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-10-07",
+                "dataEmissao": "2019-10-07",
+                "nomeEmitente": "ROSELI MARIA DE LUCCA PIZZOLO",
+                "valorDocumento": 1245
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir diversas despesas emergenciais da Secretaria Municipal de Educação, do município de Criciúma/SC. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "22",
+                "valor": 1245,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.493.849-**",
+        "numeroLiquidacao": "8864",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 1245
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-11-04",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 1245,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-11-04",
+        "credor": "ROSELI MARIA DE LUCCA PIZZOLO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-11-13",
+        "numeroDespesa": "125",
+        "numeroEmpenho": 7435,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.493.849-**",
+                "numero": "1107/2019",
+                "idDocumentoFiscal": "9788",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-04",
+                "dataEmissao": "2019-11-04",
+                "nomeEmitente": "ROSELI MARIA DE LUCCA PIZZOLO",
+                "valorDocumento": 1245
+            }
+        ],
+        "descricao": "Ref. adiantamento para cobrir diversas despesas emergenciais da Secretaria Municipal de Educação, do município de Criciúma/SC. Cfe. Doc. Anexo.",
+        "prestacaoContas": [
+            {
+                "numero": "23",
+                "valor": 1245,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.493.849-**",
+        "numeroLiquidacao": "9788",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 1245
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2019-11-05",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Diretoria Executiva de Tecnologia de Informação",
+        "valorEmpenho": 1000,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-11-05",
+        "credor": "TIAGO FERRO PAVAN",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-11-13",
+        "numeroDespesa": "51",
+        "numeroEmpenho": 7459,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.307.229-**",
+                "numero": "351/2019",
+                "idDocumentoFiscal": "9821",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-05",
+                "dataEmissao": "2019-11-05",
+                "nomeEmitente": "TIAGO FERRO PAVAN",
+                "valorDocumento": 1000
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação no evento \"7º Congresso Paranaense de Cidades Digitais\", na Cidade de Cascavel/PR, nos dias 20 a 22 de Novembro de 2019. Cfe. Memorando nº 351/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "24",
+                "valor": 1000,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.307.229-**",
+        "numeroLiquidacao": "9821",
+        "acao": "Manut. da Direitoria de Tecnologia da Informação",
+        "valorPagamento": 1000
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "GABINETE DO PREFEITO",
+        "dataEmpenho": "2019-11-05",
+        "programa": "GESTÃO ADMINISTRATIVA",
+        "unidade": "Gabinete do Prefeito",
+        "valorEmpenho": 1200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-11-05",
+        "credor": "NELI SEHNEM DOS SANTOS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-11-13",
+        "numeroDespesa": "11",
+        "numeroEmpenho": 7461,
+        "fonteRecurso": "Recursos Ordinários",
+        "valorDevolvido": 77,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.330.079-**",
+                "numero": "196/2019",
+                "idDocumentoFiscal": "9823",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-05",
+                "dataEmissao": "2019-11-05",
+                "nomeEmitente": "NELI SEHNEM DOS SANTOS",
+                "valorDocumento": 1200
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, alimentação e hospedagem, para participação no evento \"Curso de Formação e Capacitação de Pregoeiros de acordo com o novo Decreto Federal nº 10.024/2019\", na Cidade de Curitiba/PR, nos dias 24 a 26 de Novembro de 2019. Cfe. Memorando nº 196/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "16",
+                "valor": 1123,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.330.079-**",
+        "numeroLiquidacao": "9823",
+        "acao": "Manut. da Diretoria de Logistica",
+        "valorPagamento": 1200
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-11-07",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Gab. Secretaria de Educação",
+        "valorEmpenho": 2400,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-11-07",
+        "credor": "ANA CRISTINA DOS SANTOS PIZZETTI",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-11-26",
+        "numeroDespesa": "125",
+        "numeroEmpenho": 7493,
+        "fonteRecurso": "Receitas de Impostos e de Transf. de Impostos-Educação",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.852.339-**",
+                "numero": "1040/2019",
+                "idDocumentoFiscal": "9886",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-07",
+                "dataEmissao": "2019-11-07",
+                "nomeEmitente": "ANA CRISTINA DOS SANTOS PIZZETTI",
+                "valorDocumento": 2400
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação de 29 professoras de Artes da Rede Municipal, para participação de viagem de estudos, na Cidade de São Paulo/SP, nos dias 29 de Novembro a 01 de Dezembro de 2019. Cfe. Memorando nº 1040/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "8",
+                "valor": 2400,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.852.339-**",
+        "numeroLiquidacao": "9886",
+        "acao": "Manut. do Gabinete da Secretaria de Educação",
+        "valorPagamento": 2400
+    },
+    {
+        "funcao": "Educação",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DE EDUCAÇÃO",
+        "dataEmpenho": "2019-11-18",
+        "programa": "GESTÃO DE QUALIDADE NO ENSINO",
+        "unidade": "Unidades Escolares",
+        "valorEmpenho": 1200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Ensino Fundamental",
+        "dataLiquidacao": "2019-11-18",
+        "credor": "RENATA SEBASTIANA LIMAS",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-11-26",
+        "numeroDespesa": "149",
+        "numeroEmpenho": 7649,
+        "fonteRecurso": "Salário Educação",
+        "valorDevolvido": 69.96,
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.096.589-**",
+                "numero": "1168/2019",
+                "idDocumentoFiscal": "10149",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-11-18",
+                "dataEmissao": "2019-11-18",
+                "nomeEmitente": "RENATA SEBASTIANA LIMAS",
+                "valorDocumento": 1200
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de alimentação de 30 diretores e professores da Rede Municipal, para participação da Cerimônia de Premiação da IX Olimpíada Regional Mirim de Matemática, na Cidade de Florianópolis/SC, no dia 30 de Novembro. Cfe. Memorando nº 1168/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "20",
+                "valor": 1130.04,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.096.589-**",
+        "numeroLiquidacao": "10149",
+        "acao": "Unidades Escolares - Ensino Fundamental",
+        "valorPagamento": 1200
+    },
+    {
+        "funcao": "Administração",
+        "categoriaEconomica": "DESPESAS CORRENTES",
+        "orgao": "SEC. MUN. DA FAZENDA",
+        "dataEmpenho": "2019-12-02",
+        "programa": "GESTÃO FISCAL E FINANCEIRA",
+        "unidade": "Financeiro",
+        "valorEmpenho": 200,
+        "naturezaDespesa": "33900000000000 - Aplicacoes Diretas",
+        "elementoDespesa": "Aplicacoes Diretas",
+        "subfuncao": "Administração Geral",
+        "dataLiquidacao": "2019-12-02",
+        "credor": "CLAITON PACHECO GALDINO",
+        "nomeEntidade": "PREFEITURA MUNICIPAL DE CRICIUMA",
+        "dataPagamento": "2019-12-12",
+        "numeroDespesa": "88",
+        "numeroEmpenho": 8100,
+        "fonteRecurso": "Recursos Ordinários",
+        "documentosFiscais": [
+            {
+                "tipoNotaFiscal": "Normal (Modelo 1 e 1 A)",
+                "tipo": "Recibo",
+                "cpfCnpjEmitente": "***.130.709-**",
+                "numero": "111/2019",
+                "idDocumentoFiscal": "10707",
+                "naturezaJuridica": "Física",
+                "dataVencimento": "2019-12-02",
+                "dataEmissao": "2019-12-02",
+                "nomeEmitente": "CLAITON PACHECO GALDINO",
+                "valorDocumento": 200
+            }
+        ],
+        "descricao": "Ref. adiantamento de recursos financeiros para cobrir despesas de combustível, para participação da reunião \"Aceleradora Ventiur\", na Cidade de Porto Alegre/RS, no dia 02 de Dezembro de 2019. Cfe. Memorando nº 111/2019.",
+        "prestacaoContas": [
+            {
+                "numero": "12",
+                "valor": 200,
+                "dataEmissao": "2019-12-31"
+            }
+        ],
+        "mascaraNaturezaDespesa": "33900000000000",
+        "cnpjCPFCredor": "***.130.709-**",
+        "numeroLiquidacao": "10707",
+        "acao": "Manut. do Apoio Administrativo, Contrib. AMREC.",
+        "valorPagamento": 200
+    }
+]
