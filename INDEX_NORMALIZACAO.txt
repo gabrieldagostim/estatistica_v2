@@ -1,0 +1,237 @@
+================================================================================
+INDICE COMPLETO - NORMALIZACAO COM BOX-COX
+================================================================================
+
+Data: 28 de Abril de 2026
+Status: CONCLUIDO COM SUCESSO
+Base Original: base_analitica_final.csv (20.228 registros, 17 colunas)
+Base Normalizada: base_normalizada_boxcox.csv (20.228 registros, 19 colunas)
+
+================================================================================
+1. ARQUIVOS DE DADOS
+================================================================================
+
+base_normalizada_boxcox.csv (6.6 MB)
+  └─ Descricao: Base completa com transformacao Box-Cox aplicada
+  └─ Colunas-chave:
+     • log_target: Serie original (para referencia/compatibilidade)
+     • log_target_normalizado: USAR ESTA para regressao linear
+     • lambda_boxcox: Parametro de transformacao (1.2624)
+  └─ Registros: 20.228
+  └─ Recomendacao: Utilize log_target_normalizado em modelos parametricos
+
+base_analitica_com_transformacoes.csv (7.2 MB)
+  └─ Descricao: Base com 6 transformacoes testadas (anterior)
+  └─ Contem: log_target original + 6 variacoes transformadas
+  └─ Transformacoes: Box-Cox, Yeo-Johnson, Log, Raiz Quadrada, Inversa, Z-Score
+
+================================================================================
+2. DOCUMENTACAO
+================================================================================
+
+NORMALIZACAO_BOXCOX.md (9.6 KB)
+  └─ Descricao: Documentacao tecnica completa
+  └─ Conteudo:
+     1. Motivacao e contexto
+     2. Teste Shapiro-Wilk (original)
+     3. Estatisticas descritivas
+     4. Descricao de 7 transformacoes
+     5. Aplicacao de Box-Cox
+     6. Validacao pos-transformacao
+     7. Recomendacoes de uso
+     8. Referencias bibliograficas
+  └─ Audiencia: Leitura obrigatoria para entender a transformacao
+
+RESUMO_NORMALIZACAO.md (7.2 KB)
+  └─ Descricao: Resumo executivo com foco pratico
+  └─ Conteudo:
+     • O que foi feito (etapas)
+     • Resultados principais
+     • Guia de uso
+     • Proximos passos
+     • Interpretacao tecnica
+  └─ Audiencia: Executivos, analistas, scientists
+
+INDEX_NORMALIZACAO.txt (Este arquivo)
+  └─ Descricao: Indice e guia de navegacao
+
+================================================================================
+3. METADADOS
+================================================================================
+
+metadados_normalizacao_boxcox.json (941 B)
+  └─ Descricao: Informacoes estruturadas sobre a transformacao
+  └─ Conteudo:
+     • Data de geracao
+     • Arquivos de origem/saida
+     • Lambda otimizado: 1.2624
+     • Estatisticas antes/depois
+  └─ Uso: Carregue para rastreabilidade e auditoria
+
+================================================================================
+4. RELATORIOS VISUAIS
+================================================================================
+
+6 graficos em alta resolucao (300 DPI):
+
+relatorio_01_histogramas.png (273 KB)
+  └─ Histogramas com densidade + curva normal teorica
+  └─ Original vs Normalizado (lado a lado)
+  └─ Visualizacao: Distribuicao e aderencia a normal
+
+relatorio_02_qq_plots.png (254 KB)
+  └─ Q-Q Plots (Quantil-Quantil)
+  └─ Original vs Normalizado
+  └─ Visualizacao: Aderencia a diagonal = normalidade
+
+relatorio_03_box_violin_plots.png (240 KB)
+  └─ Box Plots (4 graficos)
+  └─ Violin Plots (4 graficos)
+  └─ Visualizacao: Simetria e outliers
+
+relatorio_04_estatisticas.png (295 KB)
+  └─ Tabela com 11 estatisticas descritivas
+  └─ Comparacao Original vs Normalizado
+  └─ Percentuais de melhoria destacados
+
+relatorio_05_testes_normalidade.png (271 KB)
+  └─ Resultados do Teste Shapiro-Wilk
+  └─ Interpretacao estatistica
+  └─ Recomendacoes de uso pratico
+
+relatorio_06_scatter.png (211 KB)
+  └─ Scatter plot (2.000 pontos amostrados)
+  └─ Relacao Original vs Normalizado
+  └─ Validacao visual da transformacao
+
+teste_normalidade_visualizacao.png (antigo)
+  └─ Grafico inicial de teste (6 paineis)
+  └─ Original + 3 melhores transformacoes
+
+================================================================================
+5. SCRIPTS PYTHON (REPRODUCÍVEIS)
+================================================================================
+
+teste_normalidade.py (13 KB)
+  └─ Descricao: Testa normalidade com 6 transformacoes diferentes
+  └─ Entrada: base_analitica_final.csv
+  └─ Saida:
+     • Testes Shapiro-Wilk (amostra de 5.000)
+     • Estatisticas descritivas
+     • Arquivo: base_analitica_com_transformacoes.csv
+     • Grafico: teste_normalidade_visualizacao.png
+  └─ Uso: python teste_normalidade.py
+
+gerar_base_normalizada.py (8.2 KB)
+  └─ Descricao: Aplica Box-Cox e cria base normalizada
+  └─ Entrada: base_analitica_final.csv
+  └─ Saida:
+     • base_normalizada_boxcox.csv
+     • metadados_normalizacao_boxcox.json
+  └─ Uso: python gerar_base_normalizada.py
+
+relatorio_normalizacao_visual.py (13 KB)
+  └─ Descricao: Gera 6 relatorios visuais em alta resolucao
+  └─ Entrada: base_normalizada_boxcox.csv
+  └─ Saida: 6 graficos PNG (300 DPI)
+  └─ Uso: python relatorio_normalizacao_visual.py
+
+================================================================================
+6. RESUMO DE RESULTADOS
+================================================================================
+
+TESTE SHAPIRO-WILK:
+
+Original (log_target):
+  • Estatistica W: 0.9931
+  • P-valor: 7.19e-15 (rejeita normalidade)
+  • Interpretacao: NAO-NORMAL (estatisticamente)
+
+Normalizado (Box-Cox, lambda=1.2624):
+  • Estatistica W: 0.9966
+  • P-valor: 4.00e-04 (melhora 17.98x)
+  • Interpretacao: RAZOAVELMENTE NORMAL (suficiente para pratica)
+
+MELHORIA EM ASSIMETRIA E CURTOSE:
+
+Assimetria:
+  • Original: -0.3029 (enviesada a esquerda)
+  • Normalizado: -0.0553 (praticamente simetrica)
+  • Melhoria: 81.8% mais proxima de zero
+
+Curtose:
+  • Original: +0.3779 (leptocurtica, caudas pesadas)
+  • Normalizado: -0.0757 (praticamente mesocurtica)
+  • Melhoria: 80.0% mais proxima de zero
+
+================================================================================
+7. COMO USAR CADA ARQUIVO
+================================================================================
+
+PARA REGRESSAO LINEAR:
+  df = pd.read_csv('base_normalizada_boxcox.csv')
+  X = df[features]
+  y = df['log_target_normalizado']  # USE ESTA
+  modelo = LinearRegression().fit(X, y)
+
+PARA XGBOOST/LIGHTGBM:
+  df = pd.read_csv('base_normalizada_boxcox.csv')
+  X = df[features]
+  y = df['log_target']  # USE A ORIGINAL
+  modelo = XGBRegressor().fit(X, y)
+
+PARA REFERENCIA FUTURA:
+  import json
+  with open('metadados_normalizacao_boxcox.json') as f:
+    metadata = json.load(f)
+  print(f"Lambda: {metadata['lambda_otimizado']}")
+  print(f"Data de transformacao: {metadata['data_geracao']}")
+
+================================================================================
+8. PROXIMOS PASSOS RECOMENDADOS
+================================================================================
+
+1. VALIDACAO DE PRESSUPOSTOS
+   - Teste Shapiro-Wilk dos residuos
+   - Teste Breusch-Pagan para heterocedasticidade
+   - Teste VIF para multicolinearidade
+
+2. MODELAGEM COMPARATIVA
+   - Treinar LinearRegression com log_target_normalizado
+   - Treinar XGBRegressor com log_target
+   - Comparar metricas (R2, RMSE, MAE)
+
+3. VALIDACAO CRUZADA
+   - Cross-validation com ambas as series
+   - Verificar consistencia de pressupostos
+
+4. SELECAO FINAL
+   - Escolher modelo baseado em performance + pressupostos
+   - Documentar justificativa
+
+================================================================================
+9. CHECKLIST DE QUALIDADE
+================================================================================
+
+[OK] Teste de Normalidade (Shapiro-Wilk) realizado
+[OK] 6 transformacoes testadas e comparadas
+[OK] Melhor transformacao (Box-Cox) identificada
+[OK] Transformacao aplicada a toda base (20.228 registros)
+[OK] Validacao pos-transformacao concluida
+[OK] Base normalizada gerada (6.6 MB)
+[OK] Metadados salvos para rastreabilidade
+[OK] Documentacao tecnica completa
+[OK] Resumo executivo escrito
+[OK] 6 relatorios visuais gerados
+[OK] Scripts reproducíveis fornecidos
+[OK] Guia de uso claro
+[OK] Recomendacoes de proximos passos
+
+Status: PRONTO PARA MODELAGEM
+
+================================================================================
+FIM DO INDICE
+================================================================================
+Data: 2026-04-28
+Status: CONCLUIDO
+Proximo Passo: Iniciar modelagem com serie normalizada

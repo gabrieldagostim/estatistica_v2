@@ -1,0 +1,29 @@
+{
+  "data_geracao": "2026-04-28 20:49:36",
+  "arquivo_origem": "base_analitica_final.csv",
+  "arquivo_saida": "base_normalizada_boxcox.csv",
+  "registros": 20228,
+  "colunas": 19,
+  "transformacao": "Box-Cox",
+  "lambda_otimizado": 1.2623624250829306,
+  "variavel_original": "log_target",
+  "variavel_normalizada": "log_target_normalizado",
+  "estatisticas_original": {
+    "media": 9.616575308410358,
+    "mediana": 9.782226262616366,
+    "desvio_padrao": 2.303464553628119,
+    "minimo": 0.0198026272961797,
+    "maximo": 16.08099445276543,
+    "assimetria": -0.3028535898679277,
+    "curtose": 0.37790181636808784
+  },
+  "estatisticas_normalizado": {
+    "media": 13.141432532261561,
+    "mediana": 13.304204214868932,
+    "desvio_padrao": 4.1019919229469615,
+    "minimo": -0.7865594048076352,
+    "maximo": 25.608812851584517,
+    "assimetria": -0.05525188094202998,
+    "curtose": -0.07574411851785845
+  }
+}
