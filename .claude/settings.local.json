@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python -c ' *)",
-      "Bash(python pipeline_analitico.py)"
+      "Bash(python pipeline_analitico.py)",
+      "Bash(python *)",
+      "Bash(pip install *)"
     ]
   }
 }
