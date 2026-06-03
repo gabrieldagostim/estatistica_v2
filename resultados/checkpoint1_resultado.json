@@ -1,0 +1,29 @@
+{
+  "n_registros": 20228,
+  "variavel_alvo": "log_target = log1p(valorPagoEmpenho)",
+  "n_candidatas": 25,
+  "n_selecionadas_acima_03": "ver resultados/candidatas_variaveis.csv",
+  "shapiro_wilk_original": {
+    "W": 0.993075,
+    "p": 7.186215828045935e-15,
+    "normal": false
+  },
+  "boxcox": {
+    "lambda_otimo": 1.2624,
+    "shapiro_wilk_pos_bc": {
+      "W": 0.997065,
+      "p": 2.65983463566478e-08
+    },
+    "melhoria_p_valor": 3701300.79,
+    "reducao_assimetria_pct": 81.8,
+    "reducao_curtose_pct": 79.9
+  },
+  "estatisticas_originais": {
+    "media": 9.6166,
+    "mediana": 9.7822,
+    "desvio_padrao": 2.3035,
+    "assimetria": -0.3028,
+    "curtose": 0.3775,
+    "cv_pct": 23.95
+  }
+}
