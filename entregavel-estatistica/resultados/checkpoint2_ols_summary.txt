@@ -1,0 +1,40 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_target   R-squared:                       0.993
+Model:                            OLS   Adj. R-squared:                  0.993
+Method:                 Least Squares   F-statistic:                 1.654e+05
+Date:                Wed, 03 Jun 2026   Prob (F-statistic):               0.00
+Time:                        21:17:14   Log-Likelihood:                 3753.3
+No. Observations:               16182   AIC:                            -7477.
+Df Residuals:                   16167   BIC:                            -7361.
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================================================
+                                                                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                              -10.5890      2.163     -4.896      0.000     -14.829      -6.349
+C(elemento_cat)[T.Aplicacoes Diretas]                                   -0.0211      0.008     -2.523      0.012      -0.037      -0.005
+C(elemento_cat)[T.Diversas Indenizacoes Restituicoes Trabalhistas]      -0.1793      0.015    -12.193      0.000      -0.208      -0.151
+C(elemento_cat)[T.Indenização por Demissão de Servidor ou Empregado]    -0.0030      0.009     -0.332      0.740      -0.021       0.015
+C(elemento_cat)[T.Outros]                                               -0.0159      0.009     -1.748      0.080      -0.034       0.002
+C(elemento_cat)[T.SENTENÇA JUDICIAL DE PEQUENO VALOR - ATIVO CIVIL]     -0.0147      0.018     -0.805      0.421      -0.051       0.021
+C(elemento_cat)[T.férias - abono constitucional]                        -0.0105      0.007     -1.451      0.147      -0.025       0.004
+C(elemento_cat)[T.vencimentos e salários]                               -0.0053      0.007     -0.789      0.430      -0.019       0.008
+C(tipo_empenho)[T.Ordinário]                                             0.5695      0.035     16.444      0.000       0.502       0.637
+log_valorEmpenhado                                                       0.9981      0.001   1413.373      0.000       0.997       0.999
+n_pagamentos                                                             0.0372      0.003     12.324      0.000       0.031       0.043
+ano_empenho                                                              0.0049      0.001      4.627      0.000       0.003       0.007
+trim_2                                                                   0.0116      0.004      2.666      0.008       0.003       0.020
+trim_3                                                                   0.0061      0.004      1.388      0.165      -0.002       0.015
+trim_4                                                                  -0.0135      0.004     -3.144      0.002      -0.022      -0.005
+==============================================================================
+Omnibus:                    38325.249   Durbin-Watson:                   1.969
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):        469319559.041
+Skew:                         -23.946   Prob(JB):                         0.00
+Kurtosis:                     835.927   Cond. No.                     2.90e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.9e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

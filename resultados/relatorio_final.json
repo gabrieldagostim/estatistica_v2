@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "projeto": "Trabalho de Extensao — Estatistica Aplicada — Criciuma/SC",
+    "arquivos_entrada": [
+      "dados\\Despesas com Pessoal-2012.json",
+      "dados\\Despesas com Pessoal-2013.json",
+      "dados\\Despesas com Pessoal-2014.json",
+      "dados\\Despesas com Pessoal-2015.json",
+      "dados\\Despesas com Pessoal-2016.json",
+      "dados\\Despesas com Pessoal-2017.json",
+      "dados\\Despesas com Pessoal-2018.json",
+      "dados\\Despesas com Pessoal-2019.json",
+      "dados\\Despesas com Pessoal-2020.json",
+      "dados\\Despesas com Pessoal-2021.json",
+      "dados\\Despesas com Pessoal-2022.json",
+      "dados\\Despesas com Pessoal-2023.json",
+      "dados\\Despesas com Pessoal-2024.json",
+      "dados\\Despesas com Pessoal-2025.json",
+      "dados\\Despesas com Pessoal-2026.json"
+    ],
+    "n_registros": 20228,
+    "variavel_alvo_bruta": "valorPagoEmpenho",
+    "variavel_alvo_modelada": "log_target = log1p(valorPagoEmpenho)"
+  },
+  "checkpoint1_normalidade": {
+    "n_registros": 20228,
+    "variavel_alvo": "log_target = log1p(valorPagoEmpenho)",
+    "estatisticas": {
+      "media": 9.6166,
+      "mediana": 9.7822,
+      "desvio_padrao": 2.3035,
+      "assimetria": -0.3028,
+      "curtose": 0.3775
+    },
+    "shapiro_wilk_original": {
+      "W": 0.993075,
+      "p": 7.186215828060726e-15,
+      "normal": false
+    },
+    "boxcox": {
+      "lambda_otimo": 1.2624,
+      "shapiro_wilk_pos_bc": {
+        "W": 0.997065,
+        "p": 2.6598349297624964e-08
+      },
+      "melhoria_p_valor": 3701301.20414193,
+      "reducao_assimetria_pct": 81.75624555627996,
+      "reducao_curtose_pct": 79.86234718553943
+    },
+    "tamanho_amostral": [
+      {
+        "cenario": "IC 95%, E=5%",
+        "z": 1.96,
+        "p": 0.5,
+        "E": 0.05,
+        "n_sem_correcao": 385,
+        "n_corrigido": 385,
+        "disponivel": 20228,
+        "suficiente": true
+      },
+      {
+        "cenario": "IC 99%, E=5%",
+        "z": 2.5758,
+        "p": 0.5,
+        "E": 0.05,
+        "n_sem_correcao": 664,
+        "n_corrigido": 664,
+        "disponivel": 20228,
+        "suficiente": true
+      },
+      {
+        "cenario": "IC 95%, E=1%",
+        "z": 1.96,
+        "p": 0.5,
+        "E": 0.01,
+        "n_sem_correcao": 9604,
+        "n_corrigido": 6513,
+        "disponivel": 20228,
+        "suficiente": true
+      }
+    ],
+    "n_necessario_principal": 385
+  },
+  "checkpoint2_ols": {
+    "formula": "log_target ~ log_valorEmpenhado + n_pagamentos + ano_empenho + trim_2 + trim_3 + trim_4 + C(elemento_cat) + C(tipo_empenho)",
+    "n_treino": 16182,
+    "n_teste": 4046,
+    "metricas": {
+      "r2_treino": 0.9931,
+      "r2_teste": 0.9952,
+      "rmse_log": 0.1601,
+      "mae_log": 0.026
+    },
+    "f_statistic": {
+      "value": 165387.32,
+      "p": 0.0
+    },
+    "pressupostos": {
+      "normalidade_residuos": {
+        "W": 0.1107,
+        "p": 4.301070263371911e-93,
+        "ok": false
+      },
+      "homocedasticidade": {
+        "lm": 130.81480959542313,
+        "p": 4.6927615440870894e-21,
+        "homoscedastico": false
+      },
+      "vif": [
+        {
+          "feature": "C(elemento_cat)[T.Aplicacoes Diretas]",
+          "VIF": 7.546
+        },
+        {
+          "feature": "ano_empenho",
+          "VIF": 4.971
+        },
+        {
+          "feature": "C(elemento_cat)[T.vencimentos e salários]",
+          "VIF": 3.633
+        },
+        {
+          "feature": "C(elemento_cat)[T.férias - abono constitucional]",
+          "VIF": 2.834
+        },
+        {
+          "feature": "C(elemento_cat)[T.Outros]",
+          "VIF": 1.735
+        },
+        {
+          "feature": "n_pagamentos",
+          "VIF": 1.7
+        },
+        {
+          "feature": "C(elemento_cat)[T.Indenização por Demissão de Servidor ou Empregado]",
+          "VIF": 1.637
+        },
+        {
+          "feature": "trim_4",
+          "VIF": 1.591
+        },
+        {
+          "feature": "trim_2",
+          "VIF": 1.554
+        },
+        {
+          "feature": "trim_3",
+          "VIF": 1.544
+        },
+        {
+          "feature": "C(tipo_empenho)[T.Ordinário]",
+          "VIF": 1.299
+        },
+        {
+          "feature": "C(elemento_cat)[T.Diversas Indenizacoes Restituicoes Trabalhistas]",
+          "VIF": 1.228
+        },
+        {
+          "feature": "log_valorEmpenhado",
+          "VIF": 1.157
+        },
+        {
+          "feature": "C(elemento_cat)[T.SENTENÇA JUDICIAL DE PEQUENO VALOR - ATIVO CIVIL]",
+          "VIF": 1.134
+        }
+      ],
+      "vif_max": 7.546
+    }
+  },
+  "checkpoint3_estimativas_previsoes": {
+    "estimativas_pontuais": {
+      "valorPagoEmpenho": {
+        "media": 134782.1,
+        "mediana": 17715.05,
+        "desvio_padrao": 506622.83,
+        "erro_padrao_media": 3562.12
+      },
+      "log_target": {
+        "media": 9.6166,
+        "mediana": 9.7822,
+        "desvio_padrao": 2.3035,
+        "erro_padrao_media": 0.016196
+      }
+    },
+    "intervalos_confianca": {
+      "ic_media_log_95": {
+        "li": 9.5848,
+        "ls": 9.6483,
+        "margem": 0.031743
+      },
+      "ic_media_real_95": {
+        "li": 127800.48,
+        "ls": 141763.72,
+        "margem": 6981.62
+      },
+      "ic_media_finita_95": {
+        "li": 9.6166,
+        "ls": 9.6166,
+        "fpc": 0.0
+      },
+      "ic_proporcao_95": {
+        "limiar": 5000,
+        "p_hat": 0.6763,
+        "li_pct": 66.98,
+        "ls_pct": 68.27
+      },
+      "ic_diferenca_medias": {
+        "g1": "Aplicacoes Diretas",
+        "g2": "vencimentos e salários",
+        "diferenca": -0.9135,
+        "li": -0.995,
+        "ls": -0.832,
+        "p_ttest": 1.9862624130554228e-104,
+        "significativo_5pct": true
+      }
+    },
+    "previsoes_ols_futuro": [
+      {
+        "ano": 2027,
+        "trimestre": 1,
+        "elemento": "Aplicacoes Diretas",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.7931,
+        "ic_pred_log_li": 9.4162,
+        "ic_pred_log_ls": 10.1699,
+        "previsao_real_reais": 17908.09,
+        "ic_pred_real_li": 12285.05,
+        "ic_pred_real_ls": 26104.67
+      },
+      {
+        "ano": 2027,
+        "trimestre": 2,
+        "elemento": "Aplicacoes Diretas",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8046,
+        "ic_pred_log_li": 9.4278,
+        "ic_pred_log_ls": 10.1815,
+        "previsao_real_reais": 18116.73,
+        "ic_pred_real_li": 12428.2,
+        "ic_pred_real_ls": 26408.76
+      },
+      {
+        "ano": 2027,
+        "trimestre": 3,
+        "elemento": "Aplicacoes Diretas",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.7991,
+        "ic_pred_log_li": 9.4223,
+        "ic_pred_log_ls": 10.176,
+        "previsao_real_reais": 18017.01,
+        "ic_pred_real_li": 12359.74,
+        "ic_pred_real_ls": 26263.52
+      },
+      {
+        "ano": 2027,
+        "trimestre": 4,
+        "elemento": "Aplicacoes Diretas",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.7796,
+        "ic_pred_log_li": 9.4027,
+        "ic_pred_log_ls": 10.1564,
+        "previsao_real_reais": 17667.8,
+        "ic_pred_real_li": 12120.02,
+        "ic_pred_real_ls": 25754.78
+      },
+      {
+        "ano": 2027,
+        "trimestre": 1,
+        "elemento": "vencimentos e salários",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8088,
+        "ic_pred_log_li": 9.4324,
+        "ic_pred_log_ls": 10.1853,
+        "previsao_real_reais": 18192.47,
+        "ic_pred_real_li": 12485.08,
+        "ic_pred_real_ls": 26508.69
+      },
+      {
+        "ano": 2027,
+        "trimestre": 2,
+        "elemento": "vencimentos e salários",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8204,
+        "ic_pred_log_li": 9.4439,
+        "ic_pred_log_ls": 10.1969,
+        "previsao_real_reais": 18404.42,
+        "ic_pred_real_li": 12630.51,
+        "ic_pred_real_ls": 26817.6
+      },
+      {
+        "ano": 2027,
+        "trimestre": 3,
+        "elemento": "vencimentos e salários",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8149,
+        "ic_pred_log_li": 9.4384,
+        "ic_pred_log_ls": 10.1913,
+        "previsao_real_reais": 18303.12,
+        "ic_pred_real_li": 12560.96,
+        "ic_pred_real_ls": 26670.06
+      },
+      {
+        "ano": 2027,
+        "trimestre": 4,
+        "elemento": "vencimentos e salários",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.7953,
+        "ic_pred_log_li": 9.4189,
+        "ic_pred_log_ls": 10.1718,
+        "previsao_real_reais": 17948.35,
+        "ic_pred_real_li": 12317.42,
+        "ic_pred_real_ls": 26153.28
+      },
+      {
+        "ano": 2027,
+        "trimestre": 1,
+        "elemento": "férias - abono constitucional",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8037,
+        "ic_pred_log_li": 9.4272,
+        "ic_pred_log_ls": 10.1801,
+        "previsao_real_reais": 18098.81,
+        "ic_pred_real_li": 12420.8,
+        "ic_pred_real_ls": 26372.23
+      },
+      {
+        "ano": 2027,
+        "trimestre": 2,
+        "elemento": "férias - abono constitucional",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8152,
+        "ic_pred_log_li": 9.4388,
+        "ic_pred_log_ls": 10.1917,
+        "previsao_real_reais": 18309.66,
+        "ic_pred_real_li": 12565.39,
+        "ic_pred_real_ls": 26679.72
+      },
+      {
+        "ano": 2027,
+        "trimestre": 3,
+        "elemento": "férias - abono constitucional",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.8097,
+        "ic_pred_log_li": 9.4333,
+        "ic_pred_log_ls": 10.1862,
+        "previsao_real_reais": 18208.89,
+        "ic_pred_real_li": 12496.28,
+        "ic_pred_real_ls": 26532.76
+      },
+      {
+        "ano": 2027,
+        "trimestre": 4,
+        "elemento": "férias - abono constitucional",
+        "tipo_empenho": "Ordinário",
+        "previsao_log": 9.7901,
+        "ic_pred_log_li": 9.4137,
+        "ic_pred_log_ls": 10.1666,
+        "previsao_real_reais": 17855.95,
+        "ic_pred_real_li": 12254.08,
+        "ic_pred_real_ls": 26018.47
+      }
+    ],
+    "ano_previsto": 2027
+  }
+}

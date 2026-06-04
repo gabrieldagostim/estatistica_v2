@@ -4,7 +4,10 @@
       "Bash(python -c ' *)",
       "Bash(python pipeline_analitico.py)",
       "Bash(python *)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(dir C:projetos_pythonestatistica_v2 *)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; Set-Location \"C:\\\\projetos_python\\\\estatistica_v2\"; & \".\\\\.venv\\\\Scripts\\\\python.exe\" \"_analise_correlacao.py\")",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; Set-Location \"C:\\\\projetos_python\\\\estatistica_v2\"; & \".\\\\.venv\\\\Scripts\\\\python.exe\" \"_simula_modelos.py\")"
     ]
   }
 }

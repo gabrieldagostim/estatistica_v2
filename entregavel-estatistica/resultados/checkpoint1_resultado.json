@@ -1,0 +1,59 @@
+{
+  "n_registros": 20228,
+  "variavel_alvo": "log_target = log1p(valorPagoEmpenho)",
+  "estatisticas": {
+    "media": 9.6166,
+    "mediana": 9.7822,
+    "desvio_padrao": 2.3035,
+    "assimetria": -0.3028,
+    "curtose": 0.3775
+  },
+  "shapiro_wilk_original": {
+    "W": 0.993075,
+    "p": 7.186215828060726e-15,
+    "normal": false
+  },
+  "boxcox": {
+    "lambda_otimo": 1.2624,
+    "shapiro_wilk_pos_bc": {
+      "W": 0.997065,
+      "p": 2.659834632721658e-08
+    },
+    "melhoria_p_valor": 3701300.7907938682,
+    "reducao_assimetria_pct": 81.75624038727243,
+    "reducao_curtose_pct": 79.86235157258844
+  },
+  "tamanho_amostral": [
+    {
+      "cenario": "IC 95%, E=5%",
+      "z": 1.96,
+      "p": 0.5,
+      "E": 0.05,
+      "n_sem_correcao": 385,
+      "n_corrigido": 385,
+      "disponivel": 20228,
+      "suficiente": true
+    },
+    {
+      "cenario": "IC 99%, E=5%",
+      "z": 2.5758,
+      "p": 0.5,
+      "E": 0.05,
+      "n_sem_correcao": 664,
+      "n_corrigido": 664,
+      "disponivel": 20228,
+      "suficiente": true
+    },
+    {
+      "cenario": "IC 95%, E=1%",
+      "z": 1.96,
+      "p": 0.5,
+      "E": 0.01,
+      "n_sem_correcao": 9604,
+      "n_corrigido": 6513,
+      "disponivel": 20228,
+      "suficiente": true
+    }
+  ],
+  "n_necessario_principal": 385
+}

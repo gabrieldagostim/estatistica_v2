@@ -1,39 +1,7 @@
 {
-  "tamanho_amostral": [
-    {
-      "cenario": "95% confianca, E=5%",
-      "z": 1.96,
-      "p": 0.5,
-      "E": 0.05,
-      "n_sem_correcao": 385,
-      "n_corrigido": 385,
-      "disponivel": 20228,
-      "suficiente": true
-    },
-    {
-      "cenario": "99% confianca, E=5%",
-      "z": 2.5758,
-      "p": 0.5,
-      "E": 0.05,
-      "n_sem_correcao": 664,
-      "n_corrigido": 664,
-      "disponivel": 20228,
-      "suficiente": true
-    },
-    {
-      "cenario": "95% confianca, E=1%",
-      "z": 1.96,
-      "p": 0.5,
-      "E": 0.01,
-      "n_sem_correcao": 9604,
-      "n_corrigido": 6513,
-      "disponivel": 20228,
-      "suficiente": true
-    }
-  ],
-  "n_necessario_principal": 385,
-  "n_disponivel": 20228,
   "formula": "log_target ~ log_valorEmpenhado + n_pagamentos + ano_empenho + trim_2 + trim_3 + trim_4 + C(elemento_cat) + C(tipo_empenho)",
+  "n_treino": 16182,
+  "n_teste": 4046,
   "metricas": {
     "r2_treino": 0.9931,
     "r2_teste": 0.9952,
@@ -47,71 +15,72 @@
   "pressupostos": {
     "normalidade_residuos": {
       "W": 0.1107,
-      "p": 4.301070263371666e-93,
+      "p": 4.301070263371911e-93,
       "ok": false
     },
     "homocedasticidade": {
-      "lm": 130.8148,
-      "p": 0.0,
+      "lm": 130.81480959542313,
+      "p": 4.6927615440870894e-21,
       "homoscedastico": false
     },
     "vif": [
       {
         "feature": "C(elemento_cat)[T.Aplicacoes Diretas]",
-        "VIF": 7.546161505270717
+        "VIF": 7.546
       },
       {
         "feature": "ano_empenho",
-        "VIF": 4.970823757372695
+        "VIF": 4.971
       },
       {
         "feature": "C(elemento_cat)[T.vencimentos e salários]",
-        "VIF": 3.6330107637670292
+        "VIF": 3.633
       },
       {
         "feature": "C(elemento_cat)[T.férias - abono constitucional]",
-        "VIF": 2.8335007460722266
+        "VIF": 2.834
       },
       {
         "feature": "C(elemento_cat)[T.Outros]",
-        "VIF": 1.7353063433510867
+        "VIF": 1.735
       },
       {
         "feature": "n_pagamentos",
-        "VIF": 1.7000138453273066
+        "VIF": 1.7
       },
       {
         "feature": "C(elemento_cat)[T.Indenização por Demissão de Servidor ou Empregado]",
-        "VIF": 1.6371714770934134
+        "VIF": 1.637
       },
       {
         "feature": "trim_4",
-        "VIF": 1.5909457165543877
+        "VIF": 1.591
       },
       {
         "feature": "trim_2",
-        "VIF": 1.5535721178067203
+        "VIF": 1.554
       },
       {
         "feature": "trim_3",
-        "VIF": 1.5436759254993302
+        "VIF": 1.544
       },
       {
         "feature": "C(tipo_empenho)[T.Ordinário]",
-        "VIF": 1.2985337205870804
+        "VIF": 1.299
       },
       {
         "feature": "C(elemento_cat)[T.Diversas Indenizacoes Restituicoes Trabalhistas]",
-        "VIF": 1.2283523766085613
+        "VIF": 1.228
       },
       {
         "feature": "log_valorEmpenhado",
-        "VIF": 1.156660361703627
+        "VIF": 1.157
       },
       {
         "feature": "C(elemento_cat)[T.SENTENÇA JUDICIAL DE PEQUENO VALOR - ATIVO CIVIL]",
-        "VIF": 1.1335734132113788
+        "VIF": 1.134
       }
-    ]
+    ],
+    "vif_max": 7.546
   }
 }

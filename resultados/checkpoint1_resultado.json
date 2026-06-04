@@ -1,29 +1,59 @@
 {
   "n_registros": 20228,
   "variavel_alvo": "log_target = log1p(valorPagoEmpenho)",
-  "n_candidatas": 25,
-  "n_selecionadas_acima_03": "ver resultados/candidatas_variaveis.csv",
+  "estatisticas": {
+    "media": 9.6166,
+    "mediana": 9.7822,
+    "desvio_padrao": 2.3035,
+    "assimetria": -0.3028,
+    "curtose": 0.3775
+  },
   "shapiro_wilk_original": {
     "W": 0.993075,
-    "p": 7.186215828045935e-15,
+    "p": 7.186215828060726e-15,
     "normal": false
   },
   "boxcox": {
     "lambda_otimo": 1.2624,
     "shapiro_wilk_pos_bc": {
       "W": 0.997065,
-      "p": 2.65983463566478e-08
+      "p": 2.6598349297624964e-08
     },
-    "melhoria_p_valor": 3701300.79,
-    "reducao_assimetria_pct": 81.8,
-    "reducao_curtose_pct": 79.9
+    "melhoria_p_valor": 3701301.20414193,
+    "reducao_assimetria_pct": 81.75624555627996,
+    "reducao_curtose_pct": 79.86234718553943
   },
-  "estatisticas_originais": {
-    "media": 9.6166,
-    "mediana": 9.7822,
-    "desvio_padrao": 2.3035,
-    "assimetria": -0.3028,
-    "curtose": 0.3775,
-    "cv_pct": 23.95
-  }
+  "tamanho_amostral": [
+    {
+      "cenario": "IC 95%, E=5%",
+      "z": 1.96,
+      "p": 0.5,
+      "E": 0.05,
+      "n_sem_correcao": 385,
+      "n_corrigido": 385,
+      "disponivel": 20228,
+      "suficiente": true
+    },
+    {
+      "cenario": "IC 99%, E=5%",
+      "z": 2.5758,
+      "p": 0.5,
+      "E": 0.05,
+      "n_sem_correcao": 664,
+      "n_corrigido": 664,
+      "disponivel": 20228,
+      "suficiente": true
+    },
+    {
+      "cenario": "IC 95%, E=1%",
+      "z": 1.96,
+      "p": 0.5,
+      "E": 0.01,
+      "n_sem_correcao": 9604,
+      "n_corrigido": 6513,
+      "disponivel": 20228,
+      "suficiente": true
+    }
+  ],
+  "n_necessario_principal": 385
 }
