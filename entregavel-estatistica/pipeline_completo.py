@@ -7,24 +7,27 @@ Transparencia Municipio de Criciuma/SC (2012-2026)
 Arquivo unico que reproduz toda a entrega:
   1. Carga dos JSONs                    -> dados/Despesas com Pessoal-*.json
   2. Feature engineering p/ OLS         -> log_target, log_valorEmpenhado, etc.
-  3. Teste de normalidade (Shapiro-Wilk) + Box-Cox
-  4. Calculo do tamanho amostral
-  5. Ajuste OLS (statsmodels) + pressupostos (VIF, Breusch-Pagan, SW residuos)
-  6. ESTIMATIVAS PONTUAIS e INTERVALARES  (CHECKPOINT 3)
-  7. PREVISOES OLS PARA INTERVALO FUTURO (CHECKPOINT 3)
-  8. Persistencia de bases, modelo, JSONs e graficos
+  3. EDA: 25+ candidatas + correlacao   (CHECKPOINT 1)
+  4. Teste de normalidade (Shapiro-Wilk) + Box-Cox
+  5. Calculo do tamanho amostral
+  6. Ajuste OLS (statsmodels) + pressupostos (VIF, Breusch-Pagan, SW residuos)
+  7. ESTIMATIVAS PONTUAIS e INTERVALARES  (CHECKPOINT 3)
+  8. PREVISOES OLS PARA INTERVALO FUTURO (CHECKPOINT 3)
+  9. Persistencia de bases, modelo, JSONs e graficos
 
 Execucao:
     python pipeline_completo.py
 
 Saidas:
     bases/base_ols.csv
+    resultados/candidatas_variaveis.csv
     resultados/checkpoint1_resultado.json
     resultados/checkpoint2_ols_summary.txt
     resultados/checkpoint2_metricas.json
     resultados/checkpoint2_modelo.pkl
     resultados/checkpoint3_estimativas.json
     resultados/relatorio_final.json
+    graficos/pipeline_00_correlacoes_candidatas.png
     graficos/pipeline_01_normalidade.png
     graficos/pipeline_02_diagnostico_ols.png
     graficos/pipeline_03_estimativas_previsoes.png
@@ -42,6 +45,7 @@ import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.stats.diagnostic import het_breuschpagan
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
 warnings.filterwarnings('ignore')
 
 # --------------------------------------------------------------------------
@@ -97,7 +101,8 @@ dp['anoExercicio'] = pd.to_numeric(dp['anoExercicio'], errors='coerce')
 
 num_cols = ['valorEmpenho', 'valorEmpenhado', 'valorPagoEmpenho',
             'valorLiquidadoEmpenho', 'saldoAPagar', 'saldoALiquidar',
-            'ValorAnuladoEmpenho']
+            'ValorAnuladoEmpenho', 'valorRestosAPagarProcessados',
+            'valorRestosAPagarNaoProcessados']
 for c in num_cols:
     if c in dp.columns:
         dp[c] = pd.to_numeric(dp[c], errors='coerce').fillna(0)
@@ -152,9 +157,155 @@ print(f'\nBase OLS salva: {BASES_DIR}/base_ols.csv  ({df.shape[0]:,} regs x {df.
 
 
 # ==========================================================================
-# BLOCO 2 — NORMALIDADE (SHAPIRO-WILK) + BOX-COX + TAMANHO AMOSTRAL
+# BLOCO 2 — EDA: 25+ VARIAVEIS CANDIDATAS COM CORRELACAO (CHECKPOINT 1)
 # ==========================================================================
-header('BLOCO 2 — NORMALIDADE, BOX-COX E TAMANHO AMOSTRAL')
+header('BLOCO 2 — EDA: 25+ VARIAVEIS CANDIDATAS COM CORRELACAO (CP1)')
+
+# Features adicionais SOMENTE para analise de correlacao (NAO entram no OLS).
+# base_ols.csv ja foi salva no Bloco 1 sem essas colunas para evitar data leakage.
+dp['dia_semana'] = dp['dataEmpenho'].dt.dayofweek
+dp['dia_mes']    = dp['dataEmpenho'].dt.day
+dp['fim_ano']    = (dp['mes_empenho'] >= 11).astype(int)
+dp['inicio_ano'] = (dp['mes_empenho'] <= 2).astype(int)
+
+dp['n_liquidacoes'] = dp['liquidacoes'].apply(lambda x: len(x) if isinstance(x, list) else 0)
+dp['n_docfiscais']  = dp['documentosFiscais'].apply(lambda x: len(x) if isinstance(x, list) else 0)
+
+if 'saldoALiquidar' in dp.columns:
+    dp['log_saldoALiquidar'] = np.log1p(dp['saldoALiquidar'].clip(lower=0))
+if 'valorLiquidadoEmpenho' in dp.columns:
+    dp['log_valorLiquidado'] = np.log1p(dp['valorLiquidadoEmpenho'].clip(lower=0))
+if 'ValorAnuladoEmpenho' in dp.columns and 'valorEmpenhado' in dp.columns:
+    dp['tx_anulacao'] = dp['ValorAnuladoEmpenho'] / (dp['valorEmpenhado'].abs() + 1)
+if all(c in dp.columns for c in ['valorRestosAPagarProcessados', 'valorRestosAPagarNaoProcessados']):
+    dp['tx_restos'] = (dp['valorRestosAPagarProcessados']
+                       + dp['valorRestosAPagarNaoProcessados']) / (dp['valorEmpenhado'].abs() + 1)
+
+# Label encodings (categoricas como inteiros — apenas para correlacao)
+_le = LabelEncoder()
+for col in ['descricaoOrgao', 'descricaoUnidade', 'descricaoElemento',
+            'descricaoFuncao', 'descricaoSubfuncao', 'descricaoPrograma',
+            'tipoEmpenho']:
+    if col in dp.columns:
+        dp[f'enc_{col}'] = _le.fit_transform(dp[col].fillna('DESCONHECIDO').astype(str))
+
+# Target encodings (apenas para EDA do CP1 — NAO usados no OLS para evitar leakage)
+def _te_encode(df_, col, target, prefix):
+    if col not in df_.columns:
+        return df_
+    g = df_.groupby(col)[target].agg(['mean', 'median'])
+    g.columns = [f'{prefix}_mean', f'{prefix}_median']
+    return df_.merge(g.reset_index(), on=col, how='left')
+
+for col, prefix in [
+    ('descricaoElemento',  'te_elemento'),
+    ('descricaoOrgao',     'te_orgao'),
+    ('descricaoUnidade',   'te_unidade'),
+    ('descricaoFuncao',    'te_funcao'),
+    ('descricaoSubfuncao', 'te_subfuncao'),
+    ('descricaoPrograma',  'te_programa'),
+    ('tipoEmpenho',        'te_tipo'),
+]:
+    dp = _te_encode(dp, col, 'log_target', prefix)
+
+# Encodings de interacao (pares e tripla orgao x programa x elemento)
+def _te_interacao(df_, cols, target, prefix):
+    cols = [c for c in cols if c in df_.columns]
+    if not cols:
+        return df_
+    chave = '_x_'.join(cols)
+    df_[chave] = df_[cols[0]].fillna('').astype(str)
+    for c in cols[1:]:
+        df_[chave] = df_[chave] + '||' + df_[c].fillna('').astype(str)
+    return _te_encode(df_, chave, target, prefix)
+
+dp = _te_interacao(dp, ['descricaoUnidade',  'descricaoElemento'], 'log_target', 'te_uniEle')
+dp = _te_interacao(dp, ['descricaoOrgao',    'descricaoElemento'], 'log_target', 'te_orgEle')
+dp = _te_interacao(dp, ['descricaoPrograma', 'descricaoElemento'], 'log_target', 'te_progEle')
+dp = _te_interacao(dp, ['descricaoFuncao',   'descricaoElemento'], 'log_target', 'te_funEle')
+dp = _te_interacao(dp, ['descricaoSubfuncao','descricaoElemento'], 'log_target', 'te_subEle')
+dp = _te_interacao(dp, ['descricaoOrgao','descricaoPrograma','descricaoElemento'],
+                   'log_target', 'te_orgProgEle')
+
+# Lista das 25+ candidatas, organizadas por familia
+candidatas = [
+    # Temporais (7)
+    'ano_empenho', 'mes_empenho', 'trimestre', 'dia_semana', 'dia_mes',
+    'fim_ano', 'inicio_ano',
+    # Contagens (3)
+    'n_pagamentos', 'n_liquidacoes', 'n_docfiscais',
+    # Numericas / razoes (6)
+    'log_valorEmpenhado', 'log_saldoAPagar', 'log_saldoALiquidar',
+    'log_valorLiquidado', 'tx_anulacao', 'tx_restos',
+    # Label encodings (3)
+    'enc_descricaoOrgao', 'enc_descricaoElemento', 'enc_tipoEmpenho',
+    # Target encodings simples (5)
+    'te_elemento_mean', 'te_elemento_median',
+    'te_orgao_mean', 'te_unidade_mean', 'te_funcao_mean',
+    # Target encodings de interacao (12)
+    'te_uniEle_mean', 'te_uniEle_median',
+    'te_orgEle_mean', 'te_orgEle_median',
+    'te_progEle_mean', 'te_progEle_median',
+    'te_funEle_mean', 'te_funEle_median',
+    'te_subEle_mean', 'te_subEle_median',
+    'te_orgProgEle_mean', 'te_orgProgEle_median',
+]
+candidatas = [c for c in candidatas if c in dp.columns]
+print(f'Total de candidatas avaliadas: {len(candidatas)}')
+
+# Correlacao de Pearson com log_target
+corr = (dp[candidatas + ['log_target']]
+        .apply(pd.to_numeric, errors='coerce')
+        .corr()['log_target'].drop('log_target'))
+corr_sorted = corr.reindex(corr.abs().sort_values(ascending=False).index)
+
+print(f'\nCORRELACAO COM log_target  (*** = |r| > 0.3, ** = |r| > 0.1):')
+print('-' * 70)
+registros_corr = []
+for v, c in corr_sorted.items():
+    flag = '***' if abs(c) > 0.3 else ('** ' if abs(c) > 0.1 else '   ')
+    print(f'  {flag} {v:38s} {c:+.4f}')
+    registros_corr.append({
+        'variavel': v,
+        'correlacao': round(float(c), 4),
+        'abs_corr': round(abs(float(c)), 4),
+        'selecionada_acima_0_3': bool(abs(c) > 0.3),
+    })
+
+n_candidatas_total = len(registros_corr)
+n_candidatas_selec = sum(1 for r in registros_corr if r['selecionada_acima_0_3'])
+print(f'\nResumo: {n_candidatas_total} candidatas  |  {n_candidatas_selec} com |r| > 0.3')
+
+df_candidatas = pd.DataFrame(registros_corr)
+df_candidatas.to_csv(os.path.join(RESULTADOS_DIR, 'candidatas_variaveis.csv'), index=False)
+print(f'Salvo: {RESULTADOS_DIR}/candidatas_variaveis.csv')
+
+# Grafico — top 15 correlacoes em valor absoluto
+fig, ax = plt.subplots(figsize=(11, 7))
+top15 = corr_sorted.head(15)
+cores = ['steelblue' if v > 0 else 'coral' for v in top15.values]
+ax.barh(range(len(top15)), top15.values, color=cores, alpha=0.85)
+ax.set_yticks(range(len(top15)))
+ax.set_yticklabels(top15.index, fontsize=9)
+ax.invert_yaxis()
+ax.axvline(0, color='black', lw=0.7)
+ax.axvline(0.3,  color='green', lw=0.8, ls='--', label='|r| = 0.3')
+ax.axvline(-0.3, color='green', lw=0.8, ls='--')
+ax.set_xlabel('Correlacao com log_target')
+ax.set_title(f'Top 15 correlacoes — {n_candidatas_total} candidatas avaliadas '
+             f'({n_candidatas_selec} com |r| > 0.3)')
+ax.legend(fontsize=8)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, 'pipeline_00_correlacoes_candidatas.png'),
+            dpi=150, bbox_inches='tight')
+plt.close()
+print(f'Salvo: {GRAFICOS_DIR}/pipeline_00_correlacoes_candidatas.png')
+
+
+# ==========================================================================
+# BLOCO 3 — NORMALIDADE (SHAPIRO-WILK) + BOX-COX + TAMANHO AMOSTRAL
+# ==========================================================================
+header('BLOCO 3 — NORMALIDADE, BOX-COX E TAMANHO AMOSTRAL')
 
 N = len(df)
 y_log  = df['log_target'].dropna().values
@@ -240,6 +391,12 @@ cp1 = {
         'assimetria': round(skew_log, 4),
         'curtose': round(kurt_log, 4),
     },
+    'candidatas_variaveis': {
+        'total_avaliadas': int(n_candidatas_total),
+        'selecionadas_acima_03': int(n_candidatas_selec),
+        'arquivo_completo': f'{RESULTADOS_DIR}/candidatas_variaveis.csv',
+        'top_15': df_candidatas.head(15).to_dict('records'),
+    },
     'shapiro_wilk_original': {'W': round(W_orig, 6), 'p': float(p_orig),
                               'normal': bool(p_orig >= 0.05)},
     'boxcox': {
@@ -258,9 +415,9 @@ print(f'Salvo: {RESULTADOS_DIR}/checkpoint1_resultado.json')
 
 
 # ==========================================================================
-# BLOCO 3 — AJUSTE OLS + VERIFICACAO DE PRESSUPOSTOS
+# BLOCO 4 — AJUSTE OLS + VERIFICACAO DE PRESSUPOSTOS
 # ==========================================================================
-header('BLOCO 3 — REGRESSAO OLS (statsmodels) + PRESSUPOSTOS')
+header('BLOCO 4 — REGRESSAO OLS (statsmodels) + PRESSUPOSTOS')
 
 # Garantir tipos para a formula
 df['elemento_cat'] = df['elemento_cat'].fillna('Outros').astype(str)
@@ -369,9 +526,9 @@ print(f'Salvo: {RESULTADOS_DIR}/checkpoint2_metricas.json')
 
 
 # ==========================================================================
-# BLOCO 4 — ESTIMATIVAS PONTUAIS E INTERVALARES (CHECKPOINT 3 — entregavel 1)
+# BLOCO 5 — ESTIMATIVAS PONTUAIS E INTERVALARES (CHECKPOINT 3 — entregavel 1)
 # ==========================================================================
-header('BLOCO 4 — ESTIMATIVAS PONTUAIS E INTERVALARES')
+header('BLOCO 5 — ESTIMATIVAS PONTUAIS E INTERVALARES')
 
 media_orig   = float(np.mean(y_orig))
 mediana_orig = float(np.median(y_orig))
@@ -451,9 +608,9 @@ if df['elemento_cat'].nunique() >= 2:
 
 
 # ==========================================================================
-# BLOCO 5 — PREVISOES OLS PARA INTERVALO FUTURO (CHECKPOINT 3 — entregavel 2)
+# BLOCO 6 — PREVISOES OLS PARA INTERVALO FUTURO (CHECKPOINT 3 — entregavel 2)
 # ==========================================================================
-header('BLOCO 5 — PREVISOES OLS PARA INTERVALO FUTURO (IC pred. 95%)')
+header('BLOCO 6 — PREVISOES OLS PARA INTERVALO FUTURO (IC pred. 95%)')
 
 ano_max = int(df['ano_empenho'].max())
 ano_futuro = ano_max + 1
@@ -558,9 +715,9 @@ print(f'\nSalvo: {RESULTADOS_DIR}/checkpoint3_estimativas.json')
 
 
 # ==========================================================================
-# BLOCO 6 — GRAFICOS CONSOLIDADOS
+# BLOCO 7 — GRAFICOS CONSOLIDADOS
 # ==========================================================================
-header('BLOCO 6 — GERANDO GRAFICOS')
+header('BLOCO 7 — GERANDO GRAFICOS')
 
 # --- Grafico 1: Normalidade + Box-Cox -----------------------------------
 fig, axes = plt.subplots(2, 3, figsize=(16, 10))
@@ -774,6 +931,7 @@ print(f'Salvo: {RESULTADOS_DIR}/relatorio_final.json')
 print('\nRESUMO EXECUTIVO')
 print('-' * 60)
 print(f'  Registros analisados : {N:,}')
+print(f'  Candidatas (CP1)     : {n_candidatas_total} avaliadas | {n_candidatas_selec} com |r| > 0.3')
 print(f'  Tamanho amostral nec.: {n_necessario} (disp. {N:,}) -> OK')
 print(f'  Box-Cox lambda       : {lambda_bc:.4f}')
 print(f'  Formula OLS          : {FORMULA}')
@@ -786,12 +944,14 @@ print(f'  Previsoes p/ {ano_futuro}    : {len(resultados_prev)} cenarios gerados
 print('\nARTEFATOS GERADOS')
 print('-' * 60)
 print(f'  bases/base_ols.csv')
+print(f'  resultados/candidatas_variaveis.csv')
 print(f'  resultados/checkpoint1_resultado.json')
 print(f'  resultados/checkpoint2_ols_summary.txt')
 print(f'  resultados/checkpoint2_metricas.json')
 print(f'  resultados/checkpoint2_modelo.pkl')
 print(f'  resultados/checkpoint3_estimativas.json')
 print(f'  resultados/relatorio_final.json')
+print(f'  graficos/pipeline_00_correlacoes_candidatas.png')
 print(f'  graficos/pipeline_01_normalidade.png')
 print(f'  graficos/pipeline_02_diagnostico_ols.png')
 print(f'  graficos/pipeline_03_estimativas_previsoes.png')

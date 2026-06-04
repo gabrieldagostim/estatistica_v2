@@ -55,16 +55,18 @@ O script roda end-to-end em poucos segundos e produz todos os artefatos.
 | Bloco | Etapa | Saida principal |
 |-------|-------|-----------------|
 | 1 | Carga dos JSONs + feature engineering OLS | `bases/base_ols.csv` |
-| 2 | Shapiro-Wilk + Box-Cox + tamanho amostral | `resultados/checkpoint1_resultado.json` |
-| 3 | Ajuste OLS (statsmodels) + VIF, Breusch-Pagan, SW residuos | `resultados/checkpoint2_ols_summary.txt`, `checkpoint2_metricas.json`, `checkpoint2_modelo.pkl` |
-| 4 | Estimativas pontuais e intervalares (IC media, IC proporcao, IC diferenca) | `resultados/checkpoint3_estimativas.json` |
-| 5 | Previsoes OLS para ano futuro com intervalo de predicao 95% | `resultados/checkpoint3_estimativas.json` |
-| 6 | Graficos e relatorio final consolidado | `graficos/*.png`, `resultados/relatorio_final.json` |
+| 2 | EDA: 25+ candidatas + correlacao com log_target (CP1) | `resultados/candidatas_variaveis.csv`, `graficos/pipeline_00_correlacoes_candidatas.png` |
+| 3 | Shapiro-Wilk + Box-Cox + tamanho amostral | `resultados/checkpoint1_resultado.json` |
+| 4 | Ajuste OLS (statsmodels) + VIF, Breusch-Pagan, SW residuos | `resultados/checkpoint2_ols_summary.txt`, `checkpoint2_metricas.json`, `checkpoint2_modelo.pkl` |
+| 5 | Estimativas pontuais e intervalares (IC media, IC proporcao, IC diferenca) | `resultados/checkpoint3_estimativas.json` |
+| 6 | Previsoes OLS para ano futuro com intervalo de predicao 95% | `resultados/checkpoint3_estimativas.json` |
+| 7 | Graficos e relatorio final consolidado | `graficos/*.png`, `resultados/relatorio_final.json` |
 
 ## Entregaveis cobertos
 
 - Dataset com mais de 20.000 registros (20.228 apos filtro)
 - Variavel-alvo definida e justificada
+- 25+ variaveis candidatas com correlacao calculada (36 avaliadas, 16 com |r| > 0.3)
 - Teste de normalidade Shapiro-Wilk + transformacao Box-Cox
 - Calculo do tamanho amostral com correcao para populacao finita
 - Modelo de regressao OLS (statsmodels) com verificacao de pressupostos (VIF, Breusch-Pagan, SW residuos)

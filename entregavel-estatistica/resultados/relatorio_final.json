@@ -32,6 +32,103 @@
       "assimetria": -0.3028,
       "curtose": 0.3775
     },
+    "candidatas_variaveis": {
+      "total_avaliadas": 36,
+      "selecionadas_acima_03": 16,
+      "arquivo_completo": "resultados/candidatas_variaveis.csv",
+      "top_15": [
+        {
+          "variavel": "log_valorLiquidado",
+          "correlacao": 0.9969,
+          "abs_corr": 0.9969,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "log_valorEmpenhado",
+          "correlacao": 0.9966,
+          "abs_corr": 0.9966,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_uniEle_mean",
+          "correlacao": 0.4464,
+          "abs_corr": 0.4464,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_orgProgEle_mean",
+          "correlacao": 0.4278,
+          "abs_corr": 0.4278,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_progEle_mean",
+          "correlacao": 0.4243,
+          "abs_corr": 0.4243,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_uniEle_median",
+          "correlacao": 0.4178,
+          "abs_corr": 0.4178,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_orgProgEle_median",
+          "correlacao": 0.4079,
+          "abs_corr": 0.4079,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_progEle_median",
+          "correlacao": 0.4051,
+          "abs_corr": 0.4051,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_orgEle_mean",
+          "correlacao": 0.3991,
+          "abs_corr": 0.3991,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_funEle_mean",
+          "correlacao": 0.3955,
+          "abs_corr": 0.3955,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_subEle_mean",
+          "correlacao": 0.3908,
+          "abs_corr": 0.3908,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_orgEle_median",
+          "correlacao": 0.3823,
+          "abs_corr": 0.3823,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_funEle_median",
+          "correlacao": 0.3807,
+          "abs_corr": 0.3807,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_subEle_median",
+          "correlacao": 0.3729,
+          "abs_corr": 0.3729,
+          "selecionada_acima_0_3": true
+        },
+        {
+          "variavel": "te_elemento_mean",
+          "correlacao": 0.3392,
+          "abs_corr": 0.3392,
+          "selecionada_acima_0_3": true
+        }
+      ]
+    },
     "shapiro_wilk_original": {
       "W": 0.993075,
       "p": 7.186215828060726e-15,
