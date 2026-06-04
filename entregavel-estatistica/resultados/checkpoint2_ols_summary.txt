@@ -4,7 +4,7 @@ Dep. Variable:             log_target   R-squared:                       0.993
 Model:                            OLS   Adj. R-squared:                  0.993
 Method:                 Least Squares   F-statistic:                 1.654e+05
 Date:                Wed, 03 Jun 2026   Prob (F-statistic):               0.00
-Time:                        21:17:14   Log-Likelihood:                 3753.3
+Time:                        22:27:04   Log-Likelihood:                 3753.3
 No. Observations:               16182   AIC:                            -7477.
 Df Residuals:                   16167   BIC:                            -7361.
 Df Model:                          14                                         
